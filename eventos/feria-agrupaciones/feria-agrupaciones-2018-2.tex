@@ -1,0 +1,329 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Autor:        Aguilar Enriquez, Paul Sebastian a.k.a. Penserbjorne
+% Fecha:        05/02/2017
+% Descripcion:  Plantilla base para actividades o tareas.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[a4paper,11pt]{article}                 % Papel tamaño carta, texto de 11pt.
+
+\usepackage[top=2cm, bottom=2cm, left=2.2cm, right=2.2cm]{geometry} % Margenes
+\usepackage[T1]{fontenc}                              % Indicamos la codificacion de las fuentes.
+\usepackage[utf8x]{inputenc}                          % Definimos la codificacion.
+\usepackage{lmodern}                                  % Para poder usar acentos.
+\usepackage[spanish]{babel}                           % Usaremos idioma español.
+\usepackage{amsmath}                                  % Para formulas matematicas.
+\usepackage{graphicx}                                 % Para imagenes.
+\usepackage{float}                                    % Para posicionar objetos.
+\usepackage{booktabs}                                 % Para formatear tablas.
+\usepackage{hyperref}                                 % Para enlaces y referencias.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Los logos tienen posiciones relativas al nombre de la escuela.
+% Cada imagen esta desplazada con respecto al texto, en este caso nombre de la univseridad.
+% No se necesitan paquetes adicionales, el entorno estandar para imagenes de LaTeX puede hacerlo.
+% El truco esta en definir una imagen de tamaño cero, asi no afecta al centrar los titulos.
+\def\logoUNAM{%
+  \begin{picture}(0,0)\unitlength=1cm
+    \put (-3.5,-3) {\includegraphics[width=8em]{images/escudo-unam}}
+  \end{picture}
+}
+
+\def\logoFI{%
+  \begin{picture}(0,0)\unitlength=1cm
+    \put (0.5,-3) {\includegraphics[width=8em]{images/escudo-fi}}
+  \end{picture}
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%\author{Apellido 1 Apellido 2, Nombre1 Nombre2 --- Cuenta}  % Autor de la actividad.
+\title{Lista de actividades propuestas \\ para la Feria de Agrupaciones Estudiantiles}                % Titulo de la actividad.
+\date{12/02/2018}                                           % Fecha de entrega.
+\def\universidad{Universidad Nacional Autónoma de México}   % Nombre de la universidad.
+\def\facultad{Facultad de Ingeniería}                              % Nombre de la facultdad.
+\def\semestre{2018-2}                                     % Semestre lectivo.
+\def\materia{Laboratorio de Investigación y Desarrollo del Software Libre}               % Nombre de la materia y grupo.
+\makeatletter
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+  
+  % Titulo del documento con logos.
+  \begin{center}
+    \logoUNAM {\Large \universidad} \logoFI\par
+    {\large \facultad}\par
+
+    \materia\par
+    \semestre\par
+    \@author\par
+    \@date\par
+    \@title
+  \end{center}
+
+  \hrulefill\par
+
+  \pagenumbering{gobble}                              % Oculta el numero de pagina.
+  \tableofcontents                                    % Crea el indice o tabla de contenido.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+ % \newpage                                            % Inserta una pagina nueva.
+  \pagenumbering{arabic}                              % Muestra el numero de pagina.
+  
+  \section{Proyección de OpenMovies.}                                     % Insertamos nueva seccion, SI aparece en la tabla de contenido.
+  
+  Esta actividad consiste en la proyección de OpenMovies durante la feria, antes y después de cada proyección se explicará cuál es la filosofía detrás de este tipo de películas, qué herramientas se utilizan y su proceso de producción.
+  \paragraph{}
+ \textbf{Elementos necesarios para llevar a cabo esta actividad.}
+  \begin{itemize}
+    \item Cañon.
+    \item Bocinas.
+    \item Espacio para proyección.
+    \item Asientos para los asistentes.
+  \end{itemize}
+  
+  \textbf{Duración.}
+  \begin{itemize}
+    \item Las películas duran entre 15 y 45 minutos.
+    \item Se esperan proyectar de 3 a 5 películas diarias*. *Se trabaja aún en el listado.
+  \end{itemize}
+  
+  
+    \section{Installfest.}                                     % Insertamos nueva seccion, SI aparece en la tabla de contenido.
+    Esta actividad consiste en promover el uso e instalación de distribuciones GNU Linux para uso personal y académico. Se asesorará de acuerdo a las necesidades de cada persona cuál es la distribución que más se adecua e ella.
+  \paragraph{}
+   \textbf{Elementos necesarios para llevar a cabo esta actividad.}
+  \begin{itemize}
+    \item Conexión a internet.
+    \item Puntos de conexión a la red eléctrica (tomacorrientes).
+    \item Mesas.
+    \item USB's de 2 GB a 4 GB.
+  \end{itemize}
+  
+  \textbf{Duración.}
+  \begin{itemize}
+    \item Todo el día, los tres días. Tentativo 12:00 - 20:00 hrs.
+  \end{itemize}
+  
+      \section{Taller de OpenScad.}                                     % Insertamos nueva seccion, SI aparece en la tabla de contenido.
+
+  Este taller consiste en la presentación de OpenScad para el modelado parametrizable 2D y 3D, el cuál sirve para la elaboración de planos que puedan ser manufacturados en máquinas de diseño (cortadora láser e impresora 3D).
+  Temario: \url{https://lidsol.net/talleres/0003_openscad_basico.html}
+      \paragraph{}
+  \textbf{Elementos necesarios para llevar a cabo esta actividad.}
+  \begin{itemize}
+    \item Conexión a internet.
+    \item Puntos de conexión a la red eléctrica (tomacorrientes).
+    \item Espacio para el taller (mesas y sillas).
+  \end{itemize}
+  
+  \textbf{Duración.}
+  \begin{itemize}
+    \item Considerando abarcar sólo los primeros tres temas; 3 horas, 3 días seguidos.
+  \end{itemize}
+  
+            \textbf{Ponente.}
+  \begin{itemize}
+    \item Pablo Vivar.
+  \end{itemize}
+  
+  
+        \section{Taller de Vagrant.}                                     % Insertamos nueva seccion, SI aparece en la tabla de contenido.
+
+  Este taller es para mostrar como crear entornos virtuales para desarrollo de software (containers).
+      \paragraph{}
+  \textbf{Elementos necesarios para llevar a cabo esta actividad.}
+  \begin{itemize}
+    \item Conexión a internet.
+    \item Puntos de conexión a la red eléctrica (tomacorrientes).
+    \item Espacio para el taller (mesas y sillas).
+  \end{itemize}
+  
+  \textbf{Duración.}
+  \begin{itemize}
+    \item Dos horas. (Falta confirmar)
+  \end{itemize}
+  
+              \textbf{Ponente.}
+  \begin{itemize}
+    \item Andrés Hernández.
+  \end{itemize}
+  
+  
+
+  
+  
+            \section{Taller de monitoreo y administración de una impresora 3D.}                                     % Insertamos nueva seccion, SI aparece en la tabla de contenido.
+
+   En esta actividad se pretende mostrar todo lo que se necesita para monitorear y administrar una impresora 3D.
+      \paragraph{}
+  \textbf{Elementos necesarios para llevar a cabo esta actividad.}
+  \begin{itemize}
+    \item Conexión a internet.
+    \item Espacio para el taller (mesas y sillas).
+  \end{itemize}
+  
+  \textbf{Duración.}
+  \begin{itemize}
+    \item Tres horas. (Falta confirmar)
+  \end{itemize}
+  
+              \textbf{Ponente.}
+  \begin{itemize}
+    \item Emilio Cabrera.
+  \end{itemize}
+  
+  
+              \section{Taller de KiCad.}                                     % Insertamos nueva seccion, SI aparece en la tabla de contenido.
+
+   Este taller consiste en la presentación de KiCad para hacer placas PCB de circuitos electrónicos.
+      \paragraph{}
+  \textbf{Elementos necesarios para llevar a cabo esta actividad.}
+  \begin{itemize}
+    \item Conexión a internet.
+    \item Espacio para el taller (mesas y sillas).
+  \end{itemize}
+  
+  \textbf{Duración.}
+  \begin{itemize}
+    \item Dos horas, los tres días.
+  \end{itemize}
+  
+              \textbf{Ponente.}
+  \begin{itemize}
+    \item Yesica Navarro.
+  \end{itemize}
+  
+  
+                \section{Taller de Nightly.}                                     % Insertamos nueva seccion, SI aparece en la tabla de contenido.
+
+   En este taller se mostrará como instalar y configurar Firefox Nightly, se explicará la importancia de contribuir con pruebas en un software en etapa beta, cómo probarlo y reportar bugs. 
+      \paragraph{}
+  \textbf{Elementos necesarios para llevar a cabo esta actividad.}
+  \begin{itemize}
+    \item Conexión a internet.
+    \item Espacio para el taller (mesas y sillas).
+  \end{itemize}
+  
+  \textbf{Duración.}
+  \begin{itemize}
+    \item Dos horas, los tres días.
+  \end{itemize}
+  
+              \textbf{Ponente.}
+  \begin{itemize}
+    \item Paul Aguilar.
+  \end{itemize}
+  
+  \vspace{1 cm}
+  
+            \section{Conferencia/Plática sobre Derechos Digitales. (Falta confirmar)}                                     % Insertamos nueva seccion, SI aparece en la tabla de contenido.
+
+   En esta conferencia se abordará el contexto actual de los derechos digitales, los riesgos y amenazas que existen en torno a ellos.
+      \paragraph{}
+  \textbf{Elementos necesarios para llevar a cabo esta actividad.}
+  \begin{itemize}
+    \item Auditorio.
+    \item Conexión a internet. (Transmisión en vivo)
+  \end{itemize}
+  
+  \textbf{Duración.}
+  \begin{itemize}
+    \item Dos horas. (Falta confirmar)
+  \end{itemize}
+  
+    \textbf{Ponente.}
+  \begin{itemize}
+    \item Jacobo Nájera.
+  \end{itemize}
+  
+           \section{Conferencia/Plática sobre Redes de Anonimato. (Falta confirmar)}                                     % Insertamos nueva seccion, SI aparece en la tabla de contenido.
+
+   En esta plática se pretende hablar sobre mecánismos de privacidad y anonimato en la red.
+      \paragraph{}
+  \textbf{Elementos necesarios para llevar a cabo esta actividad.}
+  \begin{itemize}
+    \item Auditorio.
+        \item Conexión a internet. (Transmisión en vivo)
+  \end{itemize}
+  
+  \textbf{Duración.}
+  \begin{itemize}
+    \item (Falta confirmar)
+  \end{itemize}
+  
+      \textbf{Ponente.}
+  \begin{itemize}
+    \item Gunnar Wolf.
+  \end{itemize}
+  
+  \section{Conferencia/Plática de GitHub.}                                     % Insertamos nueva seccion, SI aparece en la tabla de contenido.
+
+   En esta plática se hablará de la importancia de utilizar un control de versiones para proyectos universitarios.
+      \paragraph{}
+  \textbf{Elementos necesarios para llevar a cabo esta actividad.}
+  \begin{itemize}
+    \item Auditorio.
+        \item Conexión a internet. (Transmisión en vivo)
+  \end{itemize}
+  
+  \textbf{Duración.}
+  \begin{itemize}
+    \item Dos horas. (Falta confirmar)
+  \end{itemize}
+  
+        \textbf{Ponente.}
+  \begin{itemize}
+    \item Pablo Flores.
+  \end{itemize}
+  
+    \vspace{1 cm}
+  
+    \section{Conferencia/Plática de Mozilla.(Falta confirmar)}                                     % Insertamos nueva seccion, SI aparece en la tabla de contenido.
+
+   Pendiente.
+      \paragraph{}
+  \textbf{Elementos necesarios para llevar a cabo esta actividad.}
+  \begin{itemize}
+    \item Auditorio.
+        \item Conexión a internet. (Transmisión en vivo)
+  \end{itemize}
+  
+  \textbf{Duración.}
+  \begin{itemize}
+    \item Dos horas. (Falta confirmar)
+  \end{itemize}
+  
+          \textbf{Ponente.}
+  \begin{itemize}
+    \item (Falta confirmar)
+  \end{itemize}
+  
+      \section{Conferencia/Plática de Software Libre.}                                     % Insertamos nueva seccion, SI aparece en la tabla de contenido.
+
+   En esta plática se pretende hablar de qué es el FOSS y su impacto en el mundo. 
+      \paragraph{}
+  \textbf{Elementos necesarios para llevar a cabo esta actividad.}
+  \begin{itemize}
+    \item Auditorio.
+        \item Conexión a internet. (Transmisión en vivo)
+  \end{itemize}
+  
+  \textbf{Duración.}
+  \begin{itemize}
+    \item Dos horas. (Falta confirmar)
+  \end{itemize}
+  
+            \textbf{Ponentes.}
+  \begin{itemize}
+    \item Miembros de LIDSOL.
+  \end{itemize}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\end{document}
