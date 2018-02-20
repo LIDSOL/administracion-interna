@@ -16,10 +16,6 @@
 \usepackage{float}                                    % Para posicionar objetos.
 \usepackage{booktabs}                                 % Para formatear tablas.
 \usepackage{hyperref}                                 % Para enlaces y referencias.
-\usepackage{lscape}
-
-\usepackage{tabularx}
-
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -41,8 +37,8 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\author{LIDSOL}  % Autor de la actividad.
-\title{Lista de actividades \\ Feria de Agrupaciones Estudiantiles}                % Titulo de la actividad.
+%%%%%%%\author{Apellido 1 Apellido 2, Nombre1 Nombre2 --- Cuenta}  % Autor de la actividad.
+\title{Lista de actividades propuestas \\ para la Feria de Agrupaciones Estudiantiles}                % Titulo de la actividad.
 \date{12/02/2018}                                           % Fecha de entrega.
 \def\universidad{Universidad Nacional Autónoma de México}   % Nombre de la universidad.
 \def\facultad{Facultad de Ingeniería}                              % Nombre de la facultdad.
@@ -61,7 +57,7 @@
 
     \materia\par
     \semestre\par
-   % \@author\par
+    \@author\par
     \@date\par
     \@title
   \end{center}
@@ -73,56 +69,41 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-  \newpage                                            % Inserta una pagina nueva.
-
-  \begin{landscape}
-
-
-
-  \section*{Tabla de resumen}
- 
+ % \newpage                                            % Inserta una pagina nueva.
+  \pagenumbering{arabic}                              % Muestra el numero de pagina.
   
-  \begin{table}[H]
+  \section{Tabla de resumen}
+  
+  
+  \begin{table}[]
 \centering
-%\caption{My caption}
-
+\caption{My caption}
+\label{my-label}
 \begin{tabular}{|l|l|l|l|l|l|}
 \hline
- Actividad & Elementos & Duración  & Ponente & Lugar & Fecha y hora \\
-   & necesarios & (\#días) &  &  &  \\ \hline 
- Proyección de OpenMovies & Ver lista ~\ref{list:openmovies} & Todo el día (3)  & Miembros de LIDSOL & Debajo de puente & 17-19 Abril, 12:00-20:00 hrs \\ \hline
- Installfest & Ver lista ~\ref{list:installfest} & Todo el día (3) & Miembros de LIDSOL & \textit{Carpa}  &  17-19 Abril, 12:00-20:00 hrs \\ \hline
- Taller de OpenScad & Ver lista ~\ref{list:openscad} & 3 hrs (3) & Pablo Vivar & Edificio Q, Lab. Comp. &  17-19 Abril, 12:00-15:00 hrs \\ \hline
- Taller de Vagrant & Ver lista ~\ref{list:vagrant} & 2 hrs (1) & Andrés Hernández & Edificio Q, Lab. Comp. & Falta confirmar fechas \\ \hline
- Taller ... impresión 3D & Ver lista ~\ref{list:impresion} & 2 hrs (1) & Emilio Cabrera & Edificio Q, Lab. Comp. & Mi 18 Abril, 15:00-17:00 hrs \\ \hline
- Taller de KiCad & Ver lista ~\ref{list:kicad}  & 2 hrs (3) & Yesica Navarro & Edificio Q, Lab. Comp. & 17-19 Abril, 17:00-19:00 hrs  \\ \hline
- Taller de Nightly & Ver lista ~\ref{list:nightly} & 2 hrs (2) & Paul Aguilar & Edificio Q, Lab. Comp. & 17,19 Abril, 15:00-17:00 hrs \\ \hline
-C/P Derechos Digitales* & Ver lista ~\ref{list:ddigitales} & 1,5 hrs (1) & Jacobo Nájera & Auditorio & Falta confirmar \\ \hline
-C/P Redes de Anonimato* & Ver lista ~\ref{list:ranonimato} & 1,5 hrs (1) & Gunnar Wolf & Auditorio & Falta confirmar \\ \hline
-C/P GitHub* & Ver lista ~\ref{list:github} & 1,5 hrs (1) & Pablo Flores & Auditorio & Falta confirmar \\ \hline
-C/P Mozilla & Ver lista ~\ref{list:mozilla} & 1,5 hrs (1) & Por confirmar & Auditorio & Falta confirmar  \\ \hline
-C/P Software Libre & Ver lista ~\ref{list:sl} & 1,5 hrs (1) & Miembros de LIDSOL & Auditorio & Mi 18 Abril, 10:00-11:30 hrs \\  
-                   &               &             &                    &           & Mi 18 Abril, 13:00-14:30 hrs \\
-                   &               &             &                    &           & Ma 17 Abril, 12:00-13:30 hrs \\     
-                   &               &             &                    &           & Ju 19 Abril, 12:00-13:30 hrs \\
-\hline
+ Actividad & Elementos necesarios & Duración & Ponente & Lugar & Fecha y hora \\ \hline
+ Proyección de OpenMovies & Ver lista aquí & Todo el día(3)  & Equipo de LIDSOL & Debajo de puente & 17-19 Abril, 12:00-17:30 hrs \\ \hline
+ Installfest & Ver lista aquí & Todo el día(3) & Equipo de LIDSOL & \textit{Carpa}  &  17-19 Abril, 12:00-20:00 hrs \\ \hline
+ Taller de OpenScad & Ver lista aquí & 3 hrs (3) & Pablo Vivar & Edificio Q, Lab. Compu &  17-19 Abril, 12:00-15:00 hrs \\ \hline
+ &  &  &  &  &  \\ \hline
+ Taller de Vagrant&  &  &  &  &  \\ \hline
+ &  &  &  &  &  \\ \hline
+ &  &  &  &  &  \\ \hline
+ &  &  &  &  &  \\ \hline
+ &  &  &  &  &  \\ \hline
+ &  &  &  &  &  \\ \hline
+ &  &  &  &  &  \\ \hline
+ &  &  &  &  &  \\ \hline
 \end{tabular}
- 
 \end{table}
   
   
-  \addcontentsline{toc}{section}{Tabla de resumen}
-  \end{landscape}
-  
-  \pagenumbering{arabic} 
-                                 % Muestra el numero de pagina.
   \section{Proyección de OpenMovies.}                                     % Insertamos nueva seccion, SI aparece en la tabla de contenido.
   
   Esta actividad consiste en la proyección de OpenMovies durante la feria, antes y después de cada proyección se explicará cuál es la filosofía detrás de este tipo de películas, qué herramientas se utilizan y su proceso de producción.
   \paragraph{}
  \textbf{Elementos necesarios para llevar a cabo esta actividad.}
   \begin{itemize}
-    \label{list:openmovies}
     \item Cañon.
     \item Bocinas.
     \item Espacio para proyección.
@@ -141,7 +122,6 @@ C/P Software Libre & Ver lista ~\ref{list:sl} & 1,5 hrs (1) & Miembros de LIDSOL
   \paragraph{}
    \textbf{Elementos necesarios para llevar a cabo esta actividad.}
   \begin{itemize}
-    \label{list:installfest}
     \item Conexión a internet.
     \item Puntos de conexión a la red eléctrica (tomacorrientes).
     \item Mesas.
@@ -160,7 +140,6 @@ C/P Software Libre & Ver lista ~\ref{list:sl} & 1,5 hrs (1) & Miembros de LIDSOL
       \paragraph{}
   \textbf{Elementos necesarios para llevar a cabo esta actividad.}
   \begin{itemize}
-    \label{list:openscad}
     \item Conexión a internet.
     \item Puntos de conexión a la red eléctrica (tomacorrientes).
     \item Espacio para el taller (mesas y sillas).
@@ -183,7 +162,6 @@ C/P Software Libre & Ver lista ~\ref{list:sl} & 1,5 hrs (1) & Miembros de LIDSOL
       \paragraph{}
   \textbf{Elementos necesarios para llevar a cabo esta actividad.}
   \begin{itemize}
-    \label{list:vagrant}
     \item Conexión a internet.
     \item Puntos de conexión a la red eléctrica (tomacorrientes).
     \item Espacio para el taller (mesas y sillas).
@@ -209,14 +187,13 @@ C/P Software Libre & Ver lista ~\ref{list:sl} & 1,5 hrs (1) & Miembros de LIDSOL
       \paragraph{}
   \textbf{Elementos necesarios para llevar a cabo esta actividad.}
   \begin{itemize}
-    \label{list:impresion}
     \item Conexión a internet.
     \item Espacio para el taller (mesas y sillas).
   \end{itemize}
   
   \textbf{Duración.}
   \begin{itemize}
-    \item Dos horas.
+    \item Tres horas. (Falta confirmar)
   \end{itemize}
   
               \textbf{Ponente.}
@@ -231,7 +208,6 @@ C/P Software Libre & Ver lista ~\ref{list:sl} & 1,5 hrs (1) & Miembros de LIDSOL
       \paragraph{}
   \textbf{Elementos necesarios para llevar a cabo esta actividad.}
   \begin{itemize}
-  \label{list:kicad}
     \item Conexión a internet.
     \item Espacio para el taller (mesas y sillas).
   \end{itemize}
@@ -253,7 +229,6 @@ C/P Software Libre & Ver lista ~\ref{list:sl} & 1,5 hrs (1) & Miembros de LIDSOL
       \paragraph{}
   \textbf{Elementos necesarios para llevar a cabo esta actividad.}
   \begin{itemize}
-    \label{list:nightly}
     \item Conexión a internet.
     \item Espacio para el taller (mesas y sillas).
   \end{itemize}
@@ -276,7 +251,6 @@ C/P Software Libre & Ver lista ~\ref{list:sl} & 1,5 hrs (1) & Miembros de LIDSOL
       \paragraph{}
   \textbf{Elementos necesarios para llevar a cabo esta actividad.}
   \begin{itemize}
-    \label{list:ddigitales}
     \item Auditorio.
     \item Conexión a internet. (Transmisión en vivo)
   \end{itemize}
@@ -291,13 +265,12 @@ C/P Software Libre & Ver lista ~\ref{list:sl} & 1,5 hrs (1) & Miembros de LIDSOL
     \item Jacobo Nájera.
   \end{itemize}
   
-           \section{Conferencia/Plática sobre Redes de Anonimato. }                                     % Insertamos nueva seccion, SI aparece en la tabla de contenido.
+           \section{Conferencia/Plática sobre Redes de Anonimato. (Falta confirmar)}                                     % Insertamos nueva seccion, SI aparece en la tabla de contenido.
 
    En esta plática se pretende hablar sobre mecánismos de privacidad y anonimato en la red.
       \paragraph{}
   \textbf{Elementos necesarios para llevar a cabo esta actividad.}
   \begin{itemize}
-    \label{list:ranonimato}
     \item Auditorio.
         \item Conexión a internet. (Transmisión en vivo)
   \end{itemize}
@@ -318,7 +291,6 @@ C/P Software Libre & Ver lista ~\ref{list:sl} & 1,5 hrs (1) & Miembros de LIDSOL
       \paragraph{}
   \textbf{Elementos necesarios para llevar a cabo esta actividad.}
   \begin{itemize}
-    \label{list:github}
     \item Auditorio.
         \item Conexión a internet. (Transmisión en vivo)
   \end{itemize}
@@ -341,7 +313,6 @@ C/P Software Libre & Ver lista ~\ref{list:sl} & 1,5 hrs (1) & Miembros de LIDSOL
       \paragraph{}
   \textbf{Elementos necesarios para llevar a cabo esta actividad.}
   \begin{itemize}
-    \label{list:mozilla}
     \item Auditorio.
         \item Conexión a internet. (Transmisión en vivo)
   \end{itemize}
@@ -362,7 +333,6 @@ C/P Software Libre & Ver lista ~\ref{list:sl} & 1,5 hrs (1) & Miembros de LIDSOL
       \paragraph{}
   \textbf{Elementos necesarios para llevar a cabo esta actividad.}
   \begin{itemize}
-    \label{list:sl}
     \item Auditorio.
         \item Conexión a internet. (Transmisión en vivo)
   \end{itemize}
