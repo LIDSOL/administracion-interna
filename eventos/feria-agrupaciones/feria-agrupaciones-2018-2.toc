@@ -1,4 +1,4 @@
-\select@language {spanish}
+\babel@toc {spanish}{}
 \contentsline {section}{Tabla de resumen}{}{section*.2}
 \contentsline {section}{\numberline {1}Proyecci\IeC {\'o}n de OpenMovies.}{1}{section.1}
 \contentsline {paragraph}{}{1}{section*.3}
@@ -6,21 +6,18 @@
 \contentsline {paragraph}{}{1}{section*.4}
 \contentsline {section}{\numberline {3}Taller de OpenScad.}{1}{section.3}
 \contentsline {paragraph}{}{1}{section*.5}
-\contentsline {section}{\numberline {4}Taller de Vagrant.}{2}{section.4}
+\contentsline {section}{\numberline {4}Taller de monitoreo y administraci\IeC {\'o}n de una impresora 3D.}{2}{section.4}
 \contentsline {paragraph}{}{2}{section*.6}
-\contentsline {section}{\numberline {5}Taller de monitoreo y administraci\IeC {\'o}n de una impresora 3D.}{2}{section.5}
+\contentsline {section}{\numberline {5}Taller de KiCad.}{2}{section.5}
 \contentsline {paragraph}{}{2}{section*.7}
-\contentsline {section}{\numberline {6}Taller de KiCad.}{2}{section.6}
+\contentsline {section}{\numberline {6}Taller de Nightly.}{2}{section.6}
 \contentsline {paragraph}{}{2}{section*.8}
-\contentsline {section}{\numberline {7}Taller de Nightly.}{2}{section.7}
+\contentsline {section}{\numberline {7}Conferencia/Pl\IeC {\'a}tica sobre Derechos Digitales y Mec\IeC {\'a}nismos de Anonimato.}{3}{section.7}
 \contentsline {paragraph}{}{3}{section*.9}
-\contentsline {section}{\numberline {8}Conferencia/Pl\IeC {\'a}tica sobre Derechos Digitales. (Falta confirmar)}{3}{section.8}
+\contentsline {section}{\numberline {8}Conferencia/Pl\IeC {\'a}tica de GitHub.}{3}{section.8}
 \contentsline {paragraph}{}{3}{section*.10}
-\contentsline {section}{\numberline {9}Conferencia/Pl\IeC {\'a}tica sobre Redes de Anonimato. }{3}{section.9}
+\contentsline {section}{\numberline {9}Conferencia/Pl\IeC {\'a}tica de Mozilla.}{3}{section.9}
 \contentsline {paragraph}{}{3}{section*.11}
-\contentsline {section}{\numberline {10}Conferencia/Pl\IeC {\'a}tica de GitHub.}{3}{section.10}
+\contentsline {section}{\numberline {10}Conferencia/Pl\IeC {\'a}tica de Software Libre.}{4}{section.10}
 \contentsline {paragraph}{}{4}{section*.12}
-\contentsline {section}{\numberline {11}Conferencia/Pl\IeC {\'a}tica de Mozilla.(Falta confirmar)}{4}{section.11}
-\contentsline {paragraph}{}{4}{section*.13}
-\contentsline {section}{\numberline {12}Conferencia/Pl\IeC {\'a}tica de Software Libre.}{4}{section.12}
-\contentsline {paragraph}{}{4}{section*.14}
+\contentsline {section}{Horario de Feria de Agrupaciones.}{5}{section*.13}
