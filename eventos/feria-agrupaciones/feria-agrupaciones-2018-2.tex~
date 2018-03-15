@@ -17,7 +17,8 @@
 \usepackage{booktabs}                                 % Para formatear tablas.
 \usepackage{hyperref}                                 % Para enlaces y referencias.
 \usepackage{lscape}
-
+ \usepackage{timetable}
+% \usepackage[spanish.mexico]{babel}
 \usepackage{tabularx}
 
 
@@ -90,22 +91,21 @@
 \hline
  Actividad & Elementos & Duración  & Ponente & Lugar & Fecha y hora \\
    & necesarios & (\#días) &  &  &  \\ \hline 
- Proyección de OpenMovies & Ver lista ~\ref{list:openmovies} & Todo el día (3)  & Miembros de LIDSOL & Debajo de puente & 17-19 Abril, 12:00-20:00 hrs \\ \hline
- Installfest & Ver lista ~\ref{list:installfest} & Todo el día (3) & Miembros de LIDSOL & \textit{Carpa}  &  17-19 Abril, 12:00-20:00 hrs \\ \hline
- Taller de OpenScad & Ver lista ~\ref{list:openscad} & 3 hrs (3) & Pablo Vivar & Edificio Q, Lab. Comp. &  17-19 Abril, 12:00-15:00 hrs \\ \hline
- Taller de Vagrant & Ver lista ~\ref{list:vagrant} & 2 hrs (1) & Andrés Hernández & Edificio Q, Lab. Comp. & Falta confirmar fechas \\ \hline
- Taller ... impresión 3D & Ver lista ~\ref{list:impresion} & 2 hrs (1) & Emilio Cabrera & Edificio Q, Lab. Comp. & Mi 18 Abril, 15:00-17:00 hrs \\ \hline
- Taller de KiCad & Ver lista ~\ref{list:kicad}  & 2 hrs (3) & Yesica Navarro & Edificio Q, Lab. Comp. & 17-19 Abril, 17:00-19:00 hrs  \\ \hline
- Taller de Nightly & Ver lista ~\ref{list:nightly} & 2 hrs (2) & Paul Aguilar & Edificio Q, Lab. Comp. & 17,19 Abril, 15:00-17:00 hrs \\ \hline
-C/P Derechos Digitales* & Ver lista ~\ref{list:ddigitales} & 1,5 hrs (1) & Jacobo Nájera & Auditorio & Falta confirmar \\ \hline
-C/P Redes de Anonimato* & Ver lista ~\ref{list:ranonimato} & 1,5 hrs (1) & Gunnar Wolf & Auditorio & Falta confirmar \\ \hline
-C/P GitHub* & Ver lista ~\ref{list:github} & 1,5 hrs (1) & Pablo Flores & Auditorio & Falta confirmar \\ \hline
-C/P Mozilla & Ver lista ~\ref{list:mozilla} & 1,5 hrs (1) & Por confirmar & Auditorio & Falta confirmar  \\ \hline
-C/P Software Libre & Ver lista ~\ref{list:sl} & 1,5 hrs (1) & Miembros de LIDSOL & Auditorio & Mi 18 Abril, 10:00-11:30 hrs \\  
-                   &               &             &                    &           & Mi 18 Abril, 13:00-14:30 hrs \\
-                   &               &             &                    &           & Ma 17 Abril, 12:00-13:30 hrs \\     
-                   &               &             &                    &           & Ju 19 Abril, 12:00-13:30 hrs \\
-\hline
+ Proyección de OpenMovies & Ver lista ~\ref{list:openmovies}  & 3 hrs (2) & Miembros de LIDSOL & Debajo de puente &  Mi 18 Abril, 16:00-19:00 hrs \\
+   &  & &  & o lugar que se hablilite & Ju 19 Abril, 10:00-13:00 hrs\\ \hline 
+ Installfest & Ver lista ~\ref{list:installfest}  & 3,5 hrs (1)  & Miembros de LIDSOL & Stands & Ju 19 Abril, 10:00-13:00 hrs\\ 
+   &  & 6,5 hrs (1)&  & o lugar que se hablilite & 18 y 19 Abril, 15:30-19:00 hrs\\ \hline 
+ Taller de OpenScad & Ver lista ~\ref{list:openscad} & 3 hrs (2) & Pablo Vivar & Sala D, Edif. P &  Mi 18 Abril, 17:00-20:00 hrs \\ 
+  &  & &  & (División) & Ju 19 Abril, 12:00-15:00 hrs\\ \hline
+Taller ... impresión 3D & Ver lista ~\ref{list:impresion} & 2 hrs (1) & Emilio Cabrera & Sala D, Edif. P & Mi 18 Abril, 13:00-15:00 hrs \\ \hline
+ Taller de KiCad & Ver lista ~\ref{list:kicad}  & 2 hrs (2) & Yesica Navarro & Sala D, Edif. P & Mi 18 Abril, 15:00-17:00 hrs  \\
+    &  & &  &  & Ju 19 Abril, 17:00-19:00 hrs\\  \hline
+ Taller de Nightly & Ver lista ~\ref{list:nightly} & 2 hrs (1) & Paul Aguilar & Sala D, Edif. P & Ju 19 Abril, 15:00-17:00 hrs \\ \hline
+C/P DDD y Mecánismos & Ver lista ~\ref{list:ddigitales} & 1,5 hrs (1) & Gunnar Wolf & Auditorio & Ju 19 Abril, 16:00-17:30 hrs \\ 
+  de Privacidad  &  & &  Diego Barriga &  & \\  \hline
+C/P GitHub & Ver lista ~\ref{list:github} & 1,5 hrs (1) & Pablo Flores & Auditorio & Ju 19 Abril, 13:00-14:30 hrs \\ \hline
+C/P Mozilla & Ver lista ~\ref{list:mozilla} & 1,5 hrs (1) & Uriel Jurado & Auditorio & Mi 18 Abril, 13:00-14:30 hrs  \\ \hline
+C/P Software Libre & Ver lista ~\ref{list:sl} & 1,5 hrs (1) & Miembros de LIDSOL & Auditorio & Mi 18 Abril, 10:00-11:30 hrs \\  \hline
 \end{tabular}
  
 \end{table}
@@ -132,7 +132,8 @@ C/P Software Libre & Ver lista ~\ref{list:sl} & 1,5 hrs (1) & Miembros de LIDSOL
   \textbf{Duración.}
   \begin{itemize}
     \item Las películas duran entre 15 y 45 minutos.
-    \item Se esperan proyectar de 3 a 5 películas diarias*. *Se trabaja aún en el listado.
+    \item Se esperan proyectar 3 horas los dos días. Listado en 
+    \url{https://goo.gl/6Zu1Fn}
   \end{itemize}
   
   
@@ -150,7 +151,7 @@ C/P Software Libre & Ver lista ~\ref{list:sl} & 1,5 hrs (1) & Miembros de LIDSOL
   
   \textbf{Duración.}
   \begin{itemize}
-    \item Todo el día, los tres días. Tentativo 12:00 - 20:00 hrs.
+    \item 10 horas. El primer día con un bloque de 3,5 hrs y el segundo día con dos bloques, uno de 3 hrs y el otro de 3,5 hrs.
   \end{itemize}
   
       \section{Taller de OpenScad.}                                     % Insertamos nueva seccion, SI aparece en la tabla de contenido.
@@ -168,7 +169,7 @@ C/P Software Libre & Ver lista ~\ref{list:sl} & 1,5 hrs (1) & Miembros de LIDSOL
   
   \textbf{Duración.}
   \begin{itemize}
-    \item Considerando abarcar sólo los primeros tres temas; 3 horas, 3 días seguidos.
+    \item 3 horas, 2 días.
   \end{itemize}
   
             \textbf{Ponente.}
@@ -177,33 +178,7 @@ C/P Software Libre & Ver lista ~\ref{list:sl} & 1,5 hrs (1) & Miembros de LIDSOL
   \end{itemize}
   
   
-        \section{Taller de Vagrant.}                                     % Insertamos nueva seccion, SI aparece en la tabla de contenido.
-
-  Este taller es para mostrar como crear entornos virtuales para desarrollo de software (containers).
-      \paragraph{}
-  \textbf{Elementos necesarios para llevar a cabo esta actividad.}
-  \begin{itemize}
-    \label{list:vagrant}
-    \item Conexión a internet.
-    \item Puntos de conexión a la red eléctrica (tomacorrientes).
-    \item Espacio para el taller (mesas y sillas).
-  \end{itemize}
-  
-  \textbf{Duración.}
-  \begin{itemize}
-    \item Dos horas. (Falta confirmar)
-  \end{itemize}
-  
-              \textbf{Ponente.}
-  \begin{itemize}
-    \item Andrés Hernández.
-  \end{itemize}
-  
-  
-
-  
-  
-            \section{Taller de monitoreo y administración de una impresora 3D.}                                     % Insertamos nueva seccion, SI aparece en la tabla de contenido.
+  \section{Taller de monitoreo y administración de una impresora 3D.}                                     % Insertamos nueva seccion, SI aparece en la tabla de contenido.
 
    En esta actividad se pretende mostrar todo lo que se necesita para monitorear y administrar una impresora 3D.
       \paragraph{}
@@ -216,7 +191,7 @@ C/P Software Libre & Ver lista ~\ref{list:sl} & 1,5 hrs (1) & Miembros de LIDSOL
   
   \textbf{Duración.}
   \begin{itemize}
-    \item Dos horas.
+    \item 2 horas, un día.
   \end{itemize}
   
               \textbf{Ponente.}
@@ -238,7 +213,7 @@ C/P Software Libre & Ver lista ~\ref{list:sl} & 1,5 hrs (1) & Miembros de LIDSOL
   
   \textbf{Duración.}
   \begin{itemize}
-    \item Dos horas, los tres días.
+    \item 2 horas, 2 días.
   \end{itemize}
   
               \textbf{Ponente.}
@@ -260,7 +235,7 @@ C/P Software Libre & Ver lista ~\ref{list:sl} & 1,5 hrs (1) & Miembros de LIDSOL
   
   \textbf{Duración.}
   \begin{itemize}
-    \item Dos horas, los tres días.
+    \item 2 horas, un día.
   \end{itemize}
   
               \textbf{Ponente.}
@@ -270,9 +245,9 @@ C/P Software Libre & Ver lista ~\ref{list:sl} & 1,5 hrs (1) & Miembros de LIDSOL
   
   \vspace{1 cm}
   
-            \section{Conferencia/Plática sobre Derechos Digitales. (Falta confirmar)}                                     % Insertamos nueva seccion, SI aparece en la tabla de contenido.
+            \section{Conferencia/Plática sobre Derechos Digitales y Mecánismos de Anonimato.}                                     % Insertamos nueva seccion, SI aparece en la tabla de contenido.
 
-   En esta conferencia se abordará el contexto actual de los derechos digitales, los riesgos y amenazas que existen en torno a ellos.
+   En esta conferencia se abordará el contexto actual de los derechos digitales, los riesgos y amenazas que existen en torno a ellos, después se procedera a hablar sobre mecánismos de privacidad y anonimato en la red.
       \paragraph{}
   \textbf{Elementos necesarios para llevar a cabo esta actividad.}
   \begin{itemize}
@@ -283,38 +258,19 @@ C/P Software Libre & Ver lista ~\ref{list:sl} & 1,5 hrs (1) & Miembros de LIDSOL
   
   \textbf{Duración.}
   \begin{itemize}
-    \item Dos horas. (Falta confirmar)
+    \item 1,5 horas.
   \end{itemize}
   
     \textbf{Ponente.}
   \begin{itemize}
-    \item Jacobo Nájera.
-  \end{itemize}
-  
-           \section{Conferencia/Plática sobre Redes de Anonimato. }                                     % Insertamos nueva seccion, SI aparece en la tabla de contenido.
-
-   En esta plática se pretende hablar sobre mecánismos de privacidad y anonimato en la red.
-      \paragraph{}
-  \textbf{Elementos necesarios para llevar a cabo esta actividad.}
-  \begin{itemize}
-    \label{list:ranonimato}
-    \item Auditorio.
-        \item Conexión a internet. (Transmisión en vivo)
-  \end{itemize}
-  
-  \textbf{Duración.}
-  \begin{itemize}
-    \item (Falta confirmar)
-  \end{itemize}
-  
-      \textbf{Ponente.}
-  \begin{itemize}
     \item Gunnar Wolf.
+    \item Diego Barriga.
   \end{itemize}
+  
+
   
   \section{Conferencia/Plática de GitHub.}                                     % Insertamos nueva seccion, SI aparece en la tabla de contenido.
-
-   En esta plática se hablará de la importancia de utilizar un control de versiones para proyectos universitarios.
+   En esta plática se hablará de la importancia de utilizar un control de versiones para proyectos universitarios y su contribución a la supervivencia de proyectos libres.
       \paragraph{}
   \textbf{Elementos necesarios para llevar a cabo esta actividad.}
   \begin{itemize}
@@ -325,7 +281,7 @@ C/P Software Libre & Ver lista ~\ref{list:sl} & 1,5 hrs (1) & Miembros de LIDSOL
   
   \textbf{Duración.}
   \begin{itemize}
-    \item Dos horas. (Falta confirmar)
+    \item 1,5 horas.
   \end{itemize}
   
         \textbf{Ponente.}
@@ -335,9 +291,8 @@ C/P Software Libre & Ver lista ~\ref{list:sl} & 1,5 hrs (1) & Miembros de LIDSOL
   
     \vspace{1 cm}
   
-    \section{Conferencia/Plática de Mozilla.(Falta confirmar)}                                     % Insertamos nueva seccion, SI aparece en la tabla de contenido.
-
-   Pendiente.
+    \section{Conferencia/Plática de Mozilla.}                                     % Insertamos nueva seccion, SI aparece en la tabla de contenido.
+ En esta plática se hablará de el contexto actual..
       \paragraph{}
   \textbf{Elementos necesarios para llevar a cabo esta actividad.}
   \begin{itemize}
@@ -348,12 +303,12 @@ C/P Software Libre & Ver lista ~\ref{list:sl} & 1,5 hrs (1) & Miembros de LIDSOL
   
   \textbf{Duración.}
   \begin{itemize}
-    \item Dos horas. (Falta confirmar)
+    \item 1,5 horas.
   \end{itemize}
   
           \textbf{Ponente.}
   \begin{itemize}
-    \item (Falta confirmar)
+    \item Uriel Jurado.
   \end{itemize}
   
       \section{Conferencia/Plática de Software Libre.}                                     % Insertamos nueva seccion, SI aparece en la tabla de contenido.
@@ -369,13 +324,160 @@ C/P Software Libre & Ver lista ~\ref{list:sl} & 1,5 hrs (1) & Miembros de LIDSOL
   
   \textbf{Duración.}
   \begin{itemize}
-    \item Dos horas. (Falta confirmar)
+    \item 1,5 horas.
   \end{itemize}
   
             \textbf{Ponentes.}
   \begin{itemize}
-    \item Miembros de LIDSOL.
+    \item Paul Aguilar.
+    \item Pablo Vivar.
+    \item Emilio Cabrera.
+    \item Diego Barriga.
+    \item Yesica Navarro.
   \end{itemize}
+  
+  \thispagestyle{empty}
+ \begin{landscape}
+ %\printheading{Horarios de feria de agrupaciones.}
+ 
+ % Define the layout of your time tables
+ \setslotsize{2.8cm}{0.25cm}
+ % (columnas de días), 
+ \setslotcount{6}{50}
+ \settopheight{3}
+ \settextframe{1.0mm}
+ \setframetype[c]{1}
+ 
+ % Define event types
+ %            type         r     g     b     t_r  t_g  t_b
+ 
+  %Yesica Navaroo
+ \defineevent{YES}{0.98} {0.15}{0.44} {1.0}{1.0}{1.0}
+ 
+ %Emilio Cabrera
+  \defineevent{EM}{0.4} {0.85} {0.94} {1.0}{1.0}{1.0}
+ 
+ %Luis Vilchis
+ \defineevent{LUIS}{0.65}{0.89} {0.18}{1.0}{1.0}{1.0}
+
+%Pablo Vivar
+ \defineevent{PABS}{0.77}{0.55}{1.0}{1.0}{1.0}{1.0}
+ 
+ %Marco Ruano
+ \defineevent{MARCO}{0.47}{0.37}{1.0}{1.0}{1.0}{1.0}
+ 
+ %Pablo Flores
+ \defineevent{PABLOF}{0.5}{0.35}{0.45}{1.0}{1.0}{1.0}
+ 
+ %Pablo Vivar  Openscad
+ \defineevent{OpSCAD}{0.93}{0.89}{0.49}{0.45}{0.45}{0.45}
+ 
+ %Emilio Cabrera Impresion 3D
+  \defineevent{Imp3D} {0.1}{0.67}{1.0}{1.0}{1.0}{1.0}   
+ 
+ %Yesica Navarro Kikad
+ \defineevent{KiCAD}{0.65}{0.89} {0.18}{1.0}{1.0}{1.0}
+
+%Sebastian Aguilar Nightly
+ \defineevent{Night}{1.0}{0.65}{0.0}{1.0}{1.0}{1.0}
+ 
+ %LIDSOL
+  \defineevent{COLID} {0.98} {0.15}{0.44} {1.0}{1.0}{1.0}
+  
+  %
+ \defineevent{OpMov}{0.77}{0.55}{1.0}{1.0}{1.0}{1.0}
+ 
+%Sebastian Aguilar
+ \defineevent{PULK}{0.13}{0.73}{0.1}{0.25}{0.25}{0.25}
+ 
+ %Emilio Cabrera
+  \defineevent{EM} {0.1}{0.67}{1.0}{1.0}{1.0}{1.0}   
+ 
+ %Luis Vilchis
+ \defineevent{LUIS}       {0.65}{0.89} {0.18}{1.0}{1.0}{1.0}
+
+%Pablo Vivar
+ \defineevent{PABS} 
+ {0.4} {0.85} {0.94} {1.0}{1.0}{1.0}
+ 
+  
+ %Install fest
+ \defineevent{InsFest}{0.1}{0.35}{0.75}{1.0}{1.0}{1.0}
+ 
+\section*{Horario de Feria de Agrupaciones Estudiantiles.}
+ % Start the time table
+ \begin{timetable}
+ 
+   \hours{10}{12}{1}
+
+   %\frenchdays{1}
+% \spanishdays{1}
+   \daymark{}
+ \daymark{ Mi 18 de Abril  }
+  \daymark{}
+     \daymark{$ \mapsto$ }
+ \daymark{Ju 19 de Abril }
+  \daymark{ }
+   %      x start  end    name                                     lecturer          location              type
+   
+  
+   
+   %####MIERCOLES####
+   
+  \event 1 {1000}{1200}{Pl\'{a}tica - No es tu amigo, es software privativo}{LIDSOL}{{\tiny LIDSOL}}{COLID}
+  
+   \event 1 {1300}{1500}{Taller Impresi\'{o}n 3D}{Emilio Cabrera L\'{o}pez}{{\tiny LIDSOL}}{Imp3D}
+  
+    \event 1 {1500}{1700}{Taller KiCAD}{Yesica Navarro}{{\tiny LIDSOL}}{KiCAD}
+    
+    \event 1 {1700}{2000}{Taller OpenSCAD}{Pablo Vivar Colina}{{\tiny LIDSOL}}{OpSCAD}
+    
+    
+   \event 2 {1300}{1430}{ Combatiendo 1984 en el 2018 con Mozilla }{Uriel Jurado}{{\tiny Paul y Yesica}}{Night}
+ 
+  %\event 2 {1400}{1530}{Paul invita comida}{Mozilla}{{\tiny Paul}}{PULK}
+  
+  \event 2 {1600}{1900}{Open Movies}{LIDSOL}{{\tiny Paul}}{OpMov}
+   
+   
+   \event 3 {1530}{1900}{Install Fest}{LIDSOL}{{\tiny Diego, Emilio y Luis}}{InsFest}
+   
+  
+  
+  
+   %######JUEVES####
+   
+   \event 4 {1200}{1500}{Taller OpenSCAD}{Pablo Vivar Colina}{{\tiny LIDSOL}}{OpSCAD}
+   
+    \event 4 {1500}{1700}{Taller Nightly}{Sebasti\'{a}n Aguilar}{{\tiny LIDSOL}}{Night}
+    
+    \event 4 {1700}{1900}{Taller KiCAD}{Yesica Navarro}{{\tiny LIDSOL}}{KiCAD}
+    
+    
+\event 5 {1000}{1300}{Open Movies}{LIDSOL}{{\tiny Paul}}{OpMov}
+    
+    \event 5 {1300}{1430}{Pl\'{a}tica - GitHub }{Pablo Flores}{{\tiny Yesica}}{PABLOF}
+   
+   %\event 5 {1430}{1530}{GitHub}{Comida Yesica}{{\tiny Yesica}}{YES}
+   
+   \event 5 {1600}{1730}{Pl\'{a}tica - DDD y MP }{Wolf y Diego}{{\tiny Pablo}}{PABS}
+ 
+% \event 5 {1730}{1830}{Wolf}{Diego}{{\tiny Diego}}{YES}
+ 
+ \event 6 {1000}{1300}{Install Fest}{LIDSOL}{{\tiny Emilio}}{InsFest}
+   
+   \event 6 {1530}{1900}{Install Fest}{LIDSOL}{{\tiny Emilio y Luis}}{InsFest}
+   
+   
+   
+   
+ \end{timetable}
+ 
+ 
+   \addcontentsline{toc}{section}{Horario de Feria de Agrupaciones.}
+ \end{landscape}
+ 
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
   
 

@@ -21,3 +21,8 @@
 \contentsline {section}{\numberline {10}Conferencia/Pl\IeC {\'a}tica de Software Libre.}{4}{section.10}
 \contentsline {paragraph}{}{4}{section*.12}
 \contentsline {section}{Horario de Feria de Agrupaciones.}{5}{section*.13}
+\contentsline {section}{Lista de requerimientos de software para los talleres.}{6}{section*.14}
+\contentsline {subsection}{Taller de OpenScad.}{6}{section*.15}
+\contentsline {subsection}{Taller de monitoreo y administraci\IeC {\'o}n de una impresora 3D.}{6}{section*.16}
+\contentsline {subsection}{Taller de KiCad.}{6}{section*.17}
+\contentsline {subsection}{Taller de Nightly.}{6}{section*.18}

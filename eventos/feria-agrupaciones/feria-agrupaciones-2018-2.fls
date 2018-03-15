@@ -144,8 +144,6 @@ INPUT /usr/share/texmf-dist/fonts/tfm/public/lm/ec-lmbx12.tfm
 INPUT feria-agrupaciones-2018-2.toc
 INPUT feria-agrupaciones-2018-2.toc
 INPUT /usr/share/texmf-dist/fonts/tfm/public/lm/ec-lmbx10.tfm
-OUTPUT feria-agrupaciones-2018-2.toc
-INPUT /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map
 INPUT /usr/share/texmf-dist/tex/latex/lm/ot1lmr.fd
 INPUT /usr/share/texmf-dist/tex/latex/lm/ot1lmr.fd
 INPUT /usr/share/texmf-dist/fonts/tfm/public/lm/rm-lmr10.tfm
@@ -164,6 +162,8 @@ INPUT /usr/share/texmf-dist/fonts/tfm/public/lm/lmsy6.tfm
 INPUT /usr/share/texmf-dist/tex/latex/lm/omxlmex.fd
 INPUT /usr/share/texmf-dist/tex/latex/lm/omxlmex.fd
 INPUT /usr/share/texmf-dist/fonts/tfm/public/lm/lmex10.tfm
+OUTPUT feria-agrupaciones-2018-2.toc
+INPUT /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map
 INPUT /usr/share/texmf-dist/tex/latex/lm/t1lmtt.fd
 INPUT /usr/share/texmf-dist/tex/latex/lm/t1lmtt.fd
 INPUT /usr/share/texmf-dist/fonts/tfm/public/lm/ec-lmtt10.tfm
@@ -185,6 +185,7 @@ INPUT /usr/share/texmf-dist/fonts/tfm/public/lm/lmsy10.tfm
 INPUT /usr/share/texmf-dist/fonts/tfm/public/lm/lmsy7.tfm
 INPUT /usr/share/texmf-dist/fonts/tfm/public/lm/ec-lmss8.tfm
 INPUT /usr/share/texmf-dist/fonts/tfm/public/lm/ec-lmss8.tfm
+INPUT /usr/share/texmf-dist/fonts/tfm/public/lm/ec-lmbx12.tfm
 INPUT feria-agrupaciones-2018-2.aux
 INPUT ./feria-agrupaciones-2018-2.out
 INPUT ./feria-agrupaciones-2018-2.out
