@@ -1,28 +1,50 @@
 \babel@toc {spanish}{}
-\contentsline {section}{Tabla de resumen}{}{section*.2}
-\contentsline {section}{\numberline {1}Proyecci\IeC {\'o}n de OpenMovies.}{1}{section.1}
-\contentsline {paragraph}{}{1}{section*.3}
-\contentsline {section}{\numberline {2}Installfest.}{1}{section.2}
-\contentsline {paragraph}{}{1}{section*.4}
-\contentsline {section}{\numberline {3}Taller de OpenScad.}{1}{section.3}
-\contentsline {paragraph}{}{1}{section*.5}
-\contentsline {section}{\numberline {4}Taller de monitoreo y administraci\IeC {\'o}n de una impresora 3D.}{2}{section.4}
-\contentsline {paragraph}{}{2}{section*.6}
-\contentsline {section}{\numberline {5}Taller de KiCad.}{2}{section.5}
-\contentsline {paragraph}{}{2}{section*.7}
-\contentsline {section}{\numberline {6}Taller de Nightly.}{2}{section.6}
-\contentsline {paragraph}{}{2}{section*.8}
-\contentsline {section}{\numberline {7}Conferencia/Pl\IeC {\'a}tica sobre Derechos Digitales y Mec\IeC {\'a}nismos de Anonimato.}{3}{section.7}
-\contentsline {paragraph}{}{3}{section*.9}
-\contentsline {section}{\numberline {8}Conferencia/Pl\IeC {\'a}tica de GitHub.}{3}{section.8}
-\contentsline {paragraph}{}{3}{section*.10}
-\contentsline {section}{\numberline {9}Conferencia/Pl\IeC {\'a}tica de Mozilla.}{3}{section.9}
-\contentsline {paragraph}{}{3}{section*.11}
-\contentsline {section}{\numberline {10}Conferencia/Pl\IeC {\'a}tica de Software Libre.}{4}{section.10}
-\contentsline {paragraph}{}{4}{section*.12}
-\contentsline {section}{Horario de Feria de Agrupaciones.}{5}{section*.13}
-\contentsline {section}{Lista de requerimientos de software para los talleres.}{6}{section*.14}
-\contentsline {subsection}{Taller de OpenScad.}{6}{section*.15}
-\contentsline {subsection}{Taller de monitoreo y administraci\IeC {\'o}n de una impresora 3D.}{6}{section*.16}
-\contentsline {subsection}{Taller de KiCad.}{6}{section*.17}
-\contentsline {subsection}{Taller de Nightly.}{6}{section*.18}
+\contentsline {section}{\numberline {1}Planeaci\IeC {\'o}n.}{1}{section.1}
+\contentsline {subsection}{\numberline {1.1}Notas Generales de la planeaci\IeC {\'o}n.}{1}{subsection.1.1}
+\contentsline {subsection}{\numberline {1.2}Proyecci\IeC {\'o}n de OpenMovies.}{1}{subsection.1.2}
+\contentsline {paragraph}{}{1}{section*.2}
+\contentsline {subsection}{\numberline {1.3}Installfest.}{1}{subsection.1.3}
+\contentsline {paragraph}{}{2}{section*.3}
+\contentsline {subsection}{\numberline {1.4}Taller de OpenScad. " {OpenScad} para dise\IeC {\~n}o de m\IeC {\'o}delos parametrizables 2D y 3D ".}{2}{subsection.1.4}
+\contentsline {paragraph}{}{2}{section*.4}
+\contentsline {subsection}{\numberline {1.5}Taller de monitoreo y administraci\IeC {\'o}n de una impresora 3D. " {Administra} tu impresora 3D en l\IeC {\'\i }nea ".}{2}{subsection.1.5}
+\contentsline {paragraph}{}{2}{section*.5}
+\contentsline {subsection}{\numberline {1.6}Taller de KiCad. " Tu primer PCB con KiCad ".}{3}{subsection.1.6}
+\contentsline {paragraph}{}{3}{section*.6}
+\contentsline {subsection}{\numberline {1.7}Taller de Nightly. " {C\IeC {\'o}mo} contribuir a Firefox sin saber programaci\IeC {\'o}n ".}{3}{subsection.1.7}
+\contentsline {paragraph}{}{3}{section*.7}
+\contentsline {subsection}{\numberline {1.8}Conferencia/Pl\IeC {\'a}tica " Privacidad, anonimato y derechos digitales ".}{3}{subsection.1.8}
+\contentsline {paragraph}{}{3}{section*.8}
+\contentsline {subsection}{\numberline {1.9}Conferencia/Pl\IeC {\'a}tica " \IeC {\textquestiondown }Hiciste cambios y ya no compila? Hablemos de Git ".}{4}{subsection.1.9}
+\contentsline {paragraph}{}{4}{section*.9}
+\contentsline {subsection}{\numberline {1.10}Conferencia/Pl\IeC {\'a}tica " No es tu amigo, es software privativo ".}{4}{subsection.1.10}
+\contentsline {paragraph}{}{4}{section*.10}
+\contentsline {section}{Tabla de resumen}{5}{section*.11}
+\contentsline {section}{Horario de Feria de Agrupaciones.}{6}{section*.12}
+\contentsline {section}{Lista de requerimientos de software para los talleres.}{7}{section*.13}
+\contentsline {subsection}{Taller de OpenScad.}{7}{section*.14}
+\contentsline {subsection}{Taller de monitoreo y administraci\IeC {\'o}n de una impresora 3D.}{7}{section*.15}
+\contentsline {subsection}{Taller de KiCad.}{7}{section*.16}
+\contentsline {subsection}{Taller de Nightly.}{7}{section*.17}
+\contentsline {section}{\numberline {2}Ejecuci\IeC {\'o}n.}{8}{section.2}
+\contentsline {subsection}{\numberline {2.1}Notas Generales de la ejecuci\IeC {\'o}n.}{8}{subsection.2.1}
+\contentsline {subsection}{\numberline {2.2}Proyecci\IeC {\'o}n de OpenMovies.}{8}{subsection.2.2}
+\contentsline {subsection}{\numberline {2.3}Installfest.}{8}{subsection.2.3}
+\contentsline {subsection}{\numberline {2.4}Taller de OpenScad. " {OpenScad} para dise\IeC {\~n}o de m\IeC {\'o}delos parametrizables 2D y 3D ".}{9}{subsection.2.4}
+\contentsline {subsection}{\numberline {2.5}Taller de monitoreo y administraci\IeC {\'o}n de una impresora 3D. " {Administra} tu impresora 3D en l\IeC {\'\i }nea ".}{9}{subsection.2.5}
+\contentsline {subsection}{\numberline {2.6}Taller de KiCad. " Tu primer PCB con KiCad ".}{10}{subsection.2.6}
+\contentsline {subsection}{\numberline {2.7}Taller de Nightly. " {C\IeC {\'o}mo} contribuir a Firefox sin saber programaci\IeC {\'o}n ".}{11}{subsection.2.7}
+\contentsline {subsection}{\numberline {2.8}Conferencia/Pl\IeC {\'a}tica " Privacidad, anonimato y derechos digitales ".}{11}{subsection.2.8}
+\contentsline {subsection}{\numberline {2.9}Conferencia/Pl\IeC {\'a}tica " \IeC {\textquestiondown }Hiciste cambios y ya no compila? Hablemos de Git ".}{12}{subsection.2.9}
+\contentsline {subsection}{\numberline {2.10}Conferencia/Pl\IeC {\'a}tica " No es tu amigo, es software privativo ".}{12}{subsection.2.10}
+\contentsline {section}{\numberline {3}Realimentaci\IeC {\'o}n.}{13}{section.3}
+\contentsline {subsection}{\numberline {3.1}General.}{13}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}Proyecci\IeC {\'o}n de OpenMovies.}{13}{subsection.3.2}
+\contentsline {subsection}{\numberline {3.3}Installfest.}{13}{subsection.3.3}
+\contentsline {subsection}{\numberline {3.4}Taller de OpenScad. " {OpenScad} para dise\IeC {\~n}o de m\IeC {\'o}delos parametrizables 2D y 3D ".}{13}{subsection.3.4}
+\contentsline {subsection}{\numberline {3.5}Taller de monitoreo y administraci\IeC {\'o}n de una impresora 3D. " {Administra} tu impresora 3D en l\IeC {\'\i }nea ".}{13}{subsection.3.5}
+\contentsline {subsection}{\numberline {3.6}Taller de KiCad. " Tu primer PCB con KiCad ".}{13}{subsection.3.6}
+\contentsline {subsection}{\numberline {3.7}Taller de Nightly. " {C\IeC {\'o}mo} contribuir a Firefox sin saber programaci\IeC {\'o}n ".}{13}{subsection.3.7}
+\contentsline {subsection}{\numberline {3.8}Conferencia/Pl\IeC {\'a}tica " Privacidad, anonimato y derechos digitales ".}{13}{subsection.3.8}
+\contentsline {subsection}{\numberline {3.9}Conferencia/Pl\IeC {\'a}tica " \IeC {\textquestiondown }Hiciste cambios y ya no compila? Hablemos de Git ".}{13}{subsection.3.9}
+\contentsline {subsection}{\numberline {3.10}Conferencia/Pl\IeC {\'a}tica " No es tu amigo, es software privativo ".}{13}{subsection.3.10}

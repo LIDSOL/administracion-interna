@@ -1,17 +1,40 @@
-\BOOKMARK [1][-]{section*.2}{Tabla de resumen}{}% 1
-\BOOKMARK [1][-]{section.1}{Proyecci\363n de OpenMovies.}{}% 2
-\BOOKMARK [1][-]{section.2}{Installfest.}{}% 3
-\BOOKMARK [1][-]{section.3}{Taller de OpenScad.}{}% 4
-\BOOKMARK [1][-]{section.4}{Taller de monitoreo y administraci\363n de una impresora 3D.}{}% 5
-\BOOKMARK [1][-]{section.5}{Taller de KiCad.}{}% 6
-\BOOKMARK [1][-]{section.6}{Taller de Nightly.}{}% 7
-\BOOKMARK [1][-]{section.7}{Conferencia/Pl\341tica sobre Derechos Digitales y Mec\341nismos de Anonimato.}{}% 8
-\BOOKMARK [1][-]{section.8}{Conferencia/Pl\341tica de GitHub.}{}% 9
-\BOOKMARK [1][-]{section.9}{Conferencia/Pl\341tica de Mozilla.}{}% 10
-\BOOKMARK [1][-]{section.10}{Conferencia/Pl\341tica de Software Libre.}{}% 11
-\BOOKMARK [1][-]{section*.13}{Horario de Feria de Agrupaciones.}{}% 12
-\BOOKMARK [1][-]{section*.14}{Lista de requerimientos de software para los talleres.}{}% 13
-\BOOKMARK [2][-]{section*.15}{Taller de OpenScad.}{section*.14}% 14
-\BOOKMARK [2][-]{section*.16}{Taller de monitoreo y administraci\363n de una impresora 3D.}{section*.14}% 15
-\BOOKMARK [2][-]{section*.17}{Taller de KiCad.}{section*.14}% 16
-\BOOKMARK [2][-]{section*.18}{Taller de Nightly.}{section*.14}% 17
+\BOOKMARK [1][-]{section.1}{Planeaci\363n.}{}% 1
+\BOOKMARK [2][-]{subsection.1.1}{Notas Generales de la planeaci\363n.}{section.1}% 2
+\BOOKMARK [2][-]{subsection.1.2}{Proyecci\363n de OpenMovies.}{section.1}% 3
+\BOOKMARK [2][-]{subsection.1.3}{Installfest.}{section.1}% 4
+\BOOKMARK [2][-]{subsection.1.4}{Taller de OpenScad. "OpenScad para dise\361o de m\363delos parametrizables 2D y 3D ".}{section.1}% 5
+\BOOKMARK [2][-]{subsection.1.5}{Taller de monitoreo y administraci\363n de una impresora 3D. "Administra tu impresora 3D en l\355nea ".}{section.1}% 6
+\BOOKMARK [2][-]{subsection.1.6}{Taller de KiCad. "Tu primer PCB con KiCad ".}{section.1}% 7
+\BOOKMARK [2][-]{subsection.1.7}{Taller de Nightly. "C\363mo contribuir a Firefox sin saber programaci\363n ".}{section.1}% 8
+\BOOKMARK [2][-]{subsection.1.8}{Conferencia/Pl\341tica "Privacidad, anonimato y derechos digitales ".}{section.1}% 9
+\BOOKMARK [2][-]{subsection.1.9}{Conferencia/Pl\341tica "\277Hiciste cambios y ya no compila? Hablemos de Git ".}{section.1}% 10
+\BOOKMARK [2][-]{subsection.1.10}{Conferencia/Pl\341tica "No es tu amigo, es software privativo ".}{section.1}% 11
+\BOOKMARK [1][-]{section*.11}{Tabla de resumen}{}% 12
+\BOOKMARK [1][-]{section*.12}{Horario de Feria de Agrupaciones.}{}% 13
+\BOOKMARK [1][-]{section*.13}{Lista de requerimientos de software para los talleres.}{}% 14
+\BOOKMARK [2][-]{section*.14}{Taller de OpenScad.}{section*.13}% 15
+\BOOKMARK [2][-]{section*.15}{Taller de monitoreo y administraci\363n de una impresora 3D.}{section*.13}% 16
+\BOOKMARK [2][-]{section*.16}{Taller de KiCad.}{section*.13}% 17
+\BOOKMARK [2][-]{section*.17}{Taller de Nightly.}{section*.13}% 18
+\BOOKMARK [1][-]{section.2}{Ejecuci\363n.}{}% 19
+\BOOKMARK [2][-]{subsection.2.1}{Notas Generales de la ejecuci\363n.}{section.2}% 20
+\BOOKMARK [2][-]{subsection.2.2}{Proyecci\363n de OpenMovies.}{section.2}% 21
+\BOOKMARK [2][-]{subsection.2.3}{Installfest.}{section.2}% 22
+\BOOKMARK [2][-]{subsection.2.4}{Taller de OpenScad. "OpenScad para dise\361o de m\363delos parametrizables 2D y 3D ".}{section.2}% 23
+\BOOKMARK [2][-]{subsection.2.5}{Taller de monitoreo y administraci\363n de una impresora 3D. "Administra tu impresora 3D en l\355nea ".}{section.2}% 24
+\BOOKMARK [2][-]{subsection.2.6}{Taller de KiCad. "Tu primer PCB con KiCad ".}{section.2}% 25
+\BOOKMARK [2][-]{subsection.2.7}{Taller de Nightly. "C\363mo contribuir a Firefox sin saber programaci\363n ".}{section.2}% 26
+\BOOKMARK [2][-]{subsection.2.8}{Conferencia/Pl\341tica "Privacidad, anonimato y derechos digitales ".}{section.2}% 27
+\BOOKMARK [2][-]{subsection.2.9}{Conferencia/Pl\341tica "\277Hiciste cambios y ya no compila? Hablemos de Git ".}{section.2}% 28
+\BOOKMARK [2][-]{subsection.2.10}{Conferencia/Pl\341tica "No es tu amigo, es software privativo ".}{section.2}% 29
+\BOOKMARK [1][-]{section.3}{Realimentaci\363n.}{}% 30
+\BOOKMARK [2][-]{subsection.3.1}{General.}{section.3}% 31
+\BOOKMARK [2][-]{subsection.3.2}{Proyecci\363n de OpenMovies.}{section.3}% 32
+\BOOKMARK [2][-]{subsection.3.3}{Installfest.}{section.3}% 33
+\BOOKMARK [2][-]{subsection.3.4}{Taller de OpenScad. "OpenScad para dise\361o de m\363delos parametrizables 2D y 3D ".}{section.3}% 34
+\BOOKMARK [2][-]{subsection.3.5}{Taller de monitoreo y administraci\363n de una impresora 3D. "Administra tu impresora 3D en l\355nea ".}{section.3}% 35
+\BOOKMARK [2][-]{subsection.3.6}{Taller de KiCad. "Tu primer PCB con KiCad ".}{section.3}% 36
+\BOOKMARK [2][-]{subsection.3.7}{Taller de Nightly. "C\363mo contribuir a Firefox sin saber programaci\363n ".}{section.3}% 37
+\BOOKMARK [2][-]{subsection.3.8}{Conferencia/Pl\341tica "Privacidad, anonimato y derechos digitales ".}{section.3}% 38
+\BOOKMARK [2][-]{subsection.3.9}{Conferencia/Pl\341tica "\277Hiciste cambios y ya no compila? Hablemos de Git ".}{section.3}% 39
+\BOOKMARK [2][-]{subsection.3.10}{Conferencia/Pl\341tica "No es tu amigo, es software privativo ".}{section.3}% 40

@@ -44,7 +44,11 @@
 
 \author{LIDSOL}  % Autor de la actividad.
 \title{Lista de actividades \\ Feria de Agrupaciones Estudiantiles}                % Titulo de la actividad.
-\date{12/02/2018}                                           % Fecha de entrega.
+<<<<<<< HEAD
+\date{03/04/2018}                                           % Fecha de entrega.
+=======
+\date{15/03/2018}                                           % Fecha de entrega.
+>>>>>>> 96cd625628f25ffff7deeb20de22e919ffb9b324
 \def\universidad{Universidad Nacional Autónoma de México}   % Nombre de la universidad.
 \def\facultad{Facultad de Ingeniería}                              % Nombre de la facultdad.
 \def\semestre{2018-2}                                     % Semestre lectivo.
@@ -91,21 +95,27 @@
 \hline
  Actividad & Elementos & Duración  & Ponente & Lugar & Fecha y hora \\
    & necesarios & (\#días) &  &  &  \\ \hline 
- Proyección de OpenMovies & Ver lista ~\ref{list:openmovies}  & 3 hrs (2) & Miembros de LIDSOL & Debajo de puente &  Mi 18 Abril, 16:00-19:00 hrs \\
-   &  & &  & o lugar que se hablilite & Ju 19 Abril, 10:00-13:00 hrs\\ \hline 
+ Proyección de OpenMovies & Ver lista ~\ref{list:openmovies}  & 2 hrs (1) & Miembros de LIDSOL & Lab. de iOS, Edif. P &  Mi 18 Abril, 17:00-19:00 hrs \\ \hline 
  Installfest & Ver lista ~\ref{list:installfest}  & 3,5 hrs (1)  & Miembros de LIDSOL & Stands & Ju 19 Abril, 10:00-13:00 hrs\\ 
    &  & 6,5 hrs (1)&  & o lugar que se hablilite & 18 y 19 Abril, 15:30-19:00 hrs\\ \hline 
- Taller de OpenScad & Ver lista ~\ref{list:openscad} & 3 hrs (2) & Pablo Vivar & Sala D, Edif. P &  Mi 18 Abril, 17:00-20:00 hrs \\ 
-  &  & &  & (División) & Ju 19 Abril, 12:00-15:00 hrs\\ \hline
-Taller ... impresión 3D & Ver lista ~\ref{list:impresion} & 2 hrs (1) & Emilio Cabrera & Sala D, Edif. P & Mi 18 Abril, 13:00-15:00 hrs \\ \hline
- Taller de KiCad & Ver lista ~\ref{list:kicad}  & 2 hrs (2) & Yesica Navarro & Sala D, Edif. P & Mi 18 Abril, 15:00-17:00 hrs  \\
-    &  & &  &  & Ju 19 Abril, 17:00-19:00 hrs\\  \hline
- Taller de Nightly & Ver lista ~\ref{list:nightly} & 2 hrs (1) & Paul Aguilar & Sala D, Edif. P & Ju 19 Abril, 15:00-17:00 hrs \\ \hline
+ Taller de OpenScad & Ver lista ~\ref{list:openscad} & 3 hrs (2) & Pablo Vivar & Sala Microsoft Research &  Mi 18 Abril, 17:00-20:00 hrs \\ 
+  &  & &  & Edif. Q, 2do piso & Ju 19 Abril, 12:00-15:00 hrs\\ \hline
+Taller ... impresión 3D & Ver lista ~\ref{list:impresion} & 2 hrs (1) & Emilio Cabrera & Sala Microsoft Research & Mi 18 Abril, 13:00-15:00 hrs \\ \hline
+ Taller de KiCad & Ver lista ~\ref{list:kicad}  & 2 hrs (2) & Yesica Navarro & Sala Microsoft Research & Mi 18 Abril, 15:00-17:00 hrs  \\
+    &  & &  & Edif. Q, 2do piso & Ju 19 Abril, 17:00-19:00 hrs\\  \hline
+ Taller de Nightly & Ver lista ~\ref{list:nightly} & 2 hrs (1) & Paul Aguilar & Sala Microsoft Research & Ju 19 Abril, 15:00-17:00 hrs \\ \hline
+<<<<<<< HEAD
+C/P Privacidad, anonimato & Ver lista ~\ref{list:ddigitales} & 1,5 hrs (1) & Gunnar Wolf & Auditorio Sotero Prieto & Ju 19 Abril, 16:00-17:30 hrs \\ 
+  y derechos digitales  &  & &  Diego Barriga &  & \\  \hline
+C/P Github & Ver lista ~\ref{list:github} & 1,5 hrs (1) & Pablo Flores & Auditorio Sotero Prieto & Ju 19 Abril, 13:00-14:30 hrs \\ \hline
+C/P Software Libre & Ver lista ~\ref{list:sl} & 1,5 hrs (1) & Miembros de LIDSOL & Auditorio Sotero Prieto & Mi 18 Abril, 10:00-11:30 hrs \\  \hline
+=======
 C/P DDD y Mecánismos & Ver lista ~\ref{list:ddigitales} & 1,5 hrs (1) & Gunnar Wolf & Auditorio & Ju 19 Abril, 16:00-17:30 hrs \\ 
   de Privacidad  &  & &  Diego Barriga &  & \\  \hline
 C/P GitHub & Ver lista ~\ref{list:github} & 1,5 hrs (1) & Pablo Flores & Auditorio & Ju 19 Abril, 13:00-14:30 hrs \\ \hline
 C/P Mozilla & Ver lista ~\ref{list:mozilla} & 1,5 hrs (1) & Uriel Jurado & Auditorio & Mi 18 Abril, 13:00-14:30 hrs  \\ \hline
 C/P Software Libre & Ver lista ~\ref{list:sl} & 1,5 hrs (1) & Miembros de LIDSOL & Auditorio & Mi 18 Abril, 10:00-11:30 hrs \\  \hline
+>>>>>>> 96cd625628f25ffff7deeb20de22e919ffb9b324
 \end{tabular}
  
 \end{table}
@@ -132,7 +142,7 @@ C/P Software Libre & Ver lista ~\ref{list:sl} & 1,5 hrs (1) & Miembros de LIDSOL
   \textbf{Duración.}
   \begin{itemize}
     \item Las películas duran entre 15 y 45 minutos.
-    \item Se esperan proyectar 3 horas los dos días. Listado en 
+    \item Se esperan proyectar 2 horas un día. Listado en 
     \url{https://goo.gl/6Zu1Fn}
   \end{itemize}
   
@@ -154,7 +164,7 @@ C/P Software Libre & Ver lista ~\ref{list:sl} & 1,5 hrs (1) & Miembros de LIDSOL
     \item 10 horas. El primer día con un bloque de 3,5 hrs y el segundo día con dos bloques, uno de 3 hrs y el otro de 3,5 hrs.
   \end{itemize}
   
-      \section{Taller de OpenScad.}                                     % Insertamos nueva seccion, SI aparece en la tabla de contenido.
+      \section{Taller de OpenScad. " {OpenScad} para diseño de módelos parametrizables 2D y 3D ".}                                     % Insertamos nueva seccion, SI aparece en la tabla de contenido.
 
   Este taller consiste en la presentación de OpenScad para el modelado parametrizable 2D y 3D, el cuál sirve para la elaboración de planos que puedan ser manufacturados en máquinas de diseño (cortadora láser e impresora 3D).
   Temario: \url{https://lidsol.net/talleres/0003_openscad_basico.html}
@@ -163,8 +173,8 @@ C/P Software Libre & Ver lista ~\ref{list:sl} & 1,5 hrs (1) & Miembros de LIDSOL
   \begin{itemize}
     \label{list:openscad}
     \item Conexión a internet.
-    \item Puntos de conexión a la red eléctrica (tomacorrientes).
-    \item Espacio para el taller (mesas y sillas).
+    \item Espacio para el taller con equipo de cómputo. 
+    \item Ver requerimientos de software en página~\pageref{list:openscads}.
   \end{itemize}
   
   \textbf{Duración.}
@@ -178,7 +188,7 @@ C/P Software Libre & Ver lista ~\ref{list:sl} & 1,5 hrs (1) & Miembros de LIDSOL
   \end{itemize}
   
   
-  \section{Taller de monitoreo y administración de una impresora 3D.}                                     % Insertamos nueva seccion, SI aparece en la tabla de contenido.
+  \section{Taller de monitoreo y administración de una impresora 3D. " {Administra} tu impresora 3D en línea ".}                                     % Insertamos nueva seccion, SI aparece en la tabla de contenido.
 
    En esta actividad se pretende mostrar todo lo que se necesita para monitorear y administrar una impresora 3D.
       \paragraph{}
@@ -186,7 +196,8 @@ C/P Software Libre & Ver lista ~\ref{list:sl} & 1,5 hrs (1) & Miembros de LIDSOL
   \begin{itemize}
     \label{list:impresion}
     \item Conexión a internet.
-    \item Espacio para el taller (mesas y sillas).
+    \item Espacio para el taller con equipo de cómputo.
+    \item Ver requerimientos de software en página~\pageref{list:impresions}.
   \end{itemize}
   
   \textbf{Duración.}
@@ -200,7 +211,7 @@ C/P Software Libre & Ver lista ~\ref{list:sl} & 1,5 hrs (1) & Miembros de LIDSOL
   \end{itemize}
   
   
-              \section{Taller de KiCad.}                                     % Insertamos nueva seccion, SI aparece en la tabla de contenido.
+              \section{Taller de KiCad. " Tu primer PCB con KiCad ".}                                     % Insertamos nueva seccion, SI aparece en la tabla de contenido.
 
    Este taller consiste en la presentación de KiCad para hacer placas PCB de circuitos electrónicos.
       \paragraph{}
@@ -208,7 +219,8 @@ C/P Software Libre & Ver lista ~\ref{list:sl} & 1,5 hrs (1) & Miembros de LIDSOL
   \begin{itemize}
   \label{list:kicad}
     \item Conexión a internet.
-    \item Espacio para el taller (mesas y sillas).
+    \item Espacio para el taller con equipo de cómputo.
+    \item Ver requerimientos de software en página~\pageref{list:kicads}.
   \end{itemize}
   
   \textbf{Duración.}
@@ -222,7 +234,7 @@ C/P Software Libre & Ver lista ~\ref{list:sl} & 1,5 hrs (1) & Miembros de LIDSOL
   \end{itemize}
   
   
-                \section{Taller de Nightly.}                                     % Insertamos nueva seccion, SI aparece en la tabla de contenido.
+                \section{Taller de Nightly. " {Cómo} contribuir a Firefox sin saber programación ".}                                     % Insertamos nueva seccion, SI aparece en la tabla de contenido.
 
    En este taller se mostrará como instalar y configurar Firefox Nightly, se explicará la importancia de contribuir con pruebas en un software en etapa beta, cómo probarlo y reportar bugs. 
       \paragraph{}
@@ -230,7 +242,8 @@ C/P Software Libre & Ver lista ~\ref{list:sl} & 1,5 hrs (1) & Miembros de LIDSOL
   \begin{itemize}
     \label{list:nightly}
     \item Conexión a internet.
-    \item Espacio para el taller (mesas y sillas).
+    \item Espacio para el taller con equipo de cómputo.
+    \item Ver requerimientos de software en página~\pageref{list:nightlys}.
   \end{itemize}
   
   \textbf{Duración.}
@@ -245,14 +258,14 @@ C/P Software Libre & Ver lista ~\ref{list:sl} & 1,5 hrs (1) & Miembros de LIDSOL
   
   \vspace{1 cm}
   
-            \section{Conferencia/Plática sobre Derechos Digitales y Mecánismos de Anonimato.}                                     % Insertamos nueva seccion, SI aparece en la tabla de contenido.
+            \section{Conferencia/Plática " Privacidad, anonimato y derechos digitales ".}                                     % Insertamos nueva seccion, SI aparece en la tabla de contenido.
 
    En esta conferencia se abordará el contexto actual de los derechos digitales, los riesgos y amenazas que existen en torno a ellos, después se procedera a hablar sobre mecánismos de privacidad y anonimato en la red.
       \paragraph{}
   \textbf{Elementos necesarios para llevar a cabo esta actividad.}
   \begin{itemize}
     \label{list:ddigitales}
-    \item Auditorio.
+    \item Auditorio Sotero Prieto.
     \item Conexión a internet. (Transmisión en vivo)
   \end{itemize}
   
@@ -269,13 +282,13 @@ C/P Software Libre & Ver lista ~\ref{list:sl} & 1,5 hrs (1) & Miembros de LIDSOL
   
 
   
-  \section{Conferencia/Plática de GitHub.}                                     % Insertamos nueva seccion, SI aparece en la tabla de contenido.
+  \section{Conferencia/Plática " ¿Hiciste cambios y ya no compila? Hablemos de Git ".}                                     % Insertamos nueva seccion, SI aparece en la tabla de contenido.
    En esta plática se hablará de la importancia de utilizar un control de versiones para proyectos universitarios y su contribución a la supervivencia de proyectos libres.
       \paragraph{}
   \textbf{Elementos necesarios para llevar a cabo esta actividad.}
   \begin{itemize}
     \label{list:github}
-    \item Auditorio.
+    \item Auditorio Sotero Prieto.
         \item Conexión a internet. (Transmisión en vivo)
   \end{itemize}
   
@@ -291,34 +304,16 @@ C/P Software Libre & Ver lista ~\ref{list:sl} & 1,5 hrs (1) & Miembros de LIDSOL
   
     \vspace{1 cm}
   
-    \section{Conferencia/Plática de Mozilla.}                                     % Insertamos nueva seccion, SI aparece en la tabla de contenido.
- En esta plática se hablará de el contexto actual..
-      \paragraph{}
-  \textbf{Elementos necesarios para llevar a cabo esta actividad.}
-  \begin{itemize}
-    \label{list:mozilla}
-    \item Auditorio.
-        \item Conexión a internet. (Transmisión en vivo)
-  \end{itemize}
+
   
-  \textbf{Duración.}
-  \begin{itemize}
-    \item 1,5 horas.
-  \end{itemize}
-  
-          \textbf{Ponente.}
-  \begin{itemize}
-    \item Uriel Jurado.
-  \end{itemize}
-  
-      \section{Conferencia/Plática de Software Libre.}                                     % Insertamos nueva seccion, SI aparece en la tabla de contenido.
+      \section{Conferencia/Plática " No es tu amigo, es software privativo ".}                                     % Insertamos nueva seccion, SI aparece en la tabla de contenido.
 
    En esta plática se pretende hablar de qué es el FOSS y su impacto en el mundo. 
       \paragraph{}
   \textbf{Elementos necesarios para llevar a cabo esta actividad.}
   \begin{itemize}
     \label{list:sl}
-    \item Auditorio.
+    \item Auditorio Sotero Prieto.
         \item Conexión a internet. (Transmisión en vivo)
   \end{itemize}
   
@@ -426,21 +421,21 @@ C/P Software Libre & Ver lista ~\ref{list:sl} & 1,5 hrs (1) & Miembros de LIDSOL
    
   \event 1 {1000}{1200}{Pl\'{a}tica - No es tu amigo, es software privativo}{LIDSOL}{{\tiny LIDSOL}}{COLID}
   
-   \event 1 {1300}{1500}{Taller Impresi\'{o}n 3D}{Emilio Cabrera L\'{o}pez}{{\tiny LIDSOL}}{Imp3D}
+   \event 1 {1300}{1500}{Taller Impresi\'{o}n 3D}{Emilio Cabrera}{{\tiny LIDSOL}}{Imp3D}
   
     \event 1 {1500}{1700}{Taller KiCAD}{Yesica Navarro}{{\tiny LIDSOL}}{KiCAD}
     
     \event 1 {1700}{2000}{Taller OpenSCAD}{Pablo Vivar Colina}{{\tiny LIDSOL}}{OpSCAD}
     
     
-   \event 2 {1300}{1430}{ Combatiendo 1984 en el 2018 con Mozilla }{Uriel Jurado}{{\tiny Paul y Yesica}}{Night}
+  % \event 2 {1300}{1430}{ Combatiendo 1984 en el 2018 con Mozilla }{Uriel Jurado}{{\tiny Paul y Yesica}}{Night}
  
   %\event 2 {1400}{1530}{Paul invita comida}{Mozilla}{{\tiny Paul}}{PULK}
   
-  \event 2 {1600}{1900}{Open Movies}{LIDSOL}{{\tiny Paul}}{OpMov}
+  \event 2 {1700}{1900}{Open Movies}{LIDSOL}{{\tiny Paul}}{OpMov}
    
    
-   \event 3 {1530}{1900}{Install Fest}{LIDSOL}{{\tiny Diego, Emilio y Luis}}{InsFest}
+   \event 3 {1530}{1900}{Install Fest}{LIDSOL}{{\tiny Di, Em. y Luis}}{InsFest}
    
   
   
@@ -454,7 +449,7 @@ C/P Software Libre & Ver lista ~\ref{list:sl} & 1,5 hrs (1) & Miembros de LIDSOL
     \event 4 {1700}{1900}{Taller KiCAD}{Yesica Navarro}{{\tiny LIDSOL}}{KiCAD}
     
     
-\event 5 {1000}{1300}{Open Movies}{LIDSOL}{{\tiny Paul}}{OpMov}
+
     
     \event 5 {1300}{1430}{Pl\'{a}tica - GitHub }{Pablo Flores}{{\tiny Yesica}}{PABLOF}
    
@@ -477,7 +472,40 @@ C/P Software Libre & Ver lista ~\ref{list:sl} & 1,5 hrs (1) & Miembros de LIDSOL
    \addcontentsline{toc}{section}{Horario de Feria de Agrupaciones.}
  \end{landscape}
  
-
+  \section*{Lista de requerimientos de software para los talleres.}
+   \addcontentsline{toc}{section}{Lista de requerimientos de software para los talleres.}
+   
+         \subsection*{Taller de OpenScad.}                                     % Insertamos nueva seccion, SI aparece en la tabla de contenido.
+         \addcontentsline{toc}{subsection}{Taller de OpenScad.}
+  \label{list:openscads}
+  \begin{itemize}
+    \item OpenSCAD 2015.
+  \end{itemize}
+  
+        \subsection*{Taller de monitoreo y administración de una impresora 3D.}                                     % Insertamos nueva seccion, SI aparece en la tabla de contenido.
+        \addcontentsline{toc}{subsection}{Taller de monitoreo y administración de una impresora 3D.}
+  \label{list:impresions}
+  \begin{itemize}
+    \item Python.
+    \item Haproxy.
+    \item OpenVPN.
+    \item Curaengine.
+  \end{itemize}
+  
+        \subsection*{Taller de KiCad.}                                     % Insertamos nueva seccion, SI aparece en la tabla de contenido.
+        \addcontentsline{toc}{subsection}{Taller de KiCad.}
+  \label{list:kicads}
+\begin{itemize}
+    \item KiCad 4.0.7.
+  \end{itemize}
+                \subsection*{Taller de Nightly.}                                     % Insertamos nueva seccion, SI aparece en la tabla de contenido.
+                \addcontentsline{toc}{subsection}{Taller de Nightly.}
+  \label{list:nightlys}
+  \begin{itemize}
+    \item Nightly 59.0a1.
+  \end{itemize}
+  
+   
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
   
 
