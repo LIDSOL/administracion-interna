@@ -133,7 +133,7 @@
     \item 10 horas. El primer día con un bloque de 3,5 hrs y el segundo día con dos bloques, uno de 3 hrs y el otro de 3,5 hrs.
   \end{itemize}
   
-      \subsection{Taller de OpenScad. \textit{OpenScad para diseño de módelos parametrizables 2D y 3D} .}                                     % Insertamos nueva seccion, SI aparece en la tabla de contenido.
+      \subsection{Taller de OpenScad. " {OpenScad} para diseño de módelos parametrizables 2D y 3D ".}                                     % Insertamos nueva seccion, SI aparece en la tabla de contenido.
 
   Este taller consiste en la presentación de OpenScad para el modelado parametrizable 2D y 3D, el cuál sirve para la elaboración de planos que puedan ser manufacturados en máquinas de diseño (cortadora láser e impresora 3D).
   Temario: \url{https://lidsol.net/talleres/0003_openscad_basico.html}
@@ -157,7 +157,7 @@
   \end{itemize}
   
   
-  \subsection{Taller de monitoreo y administración de una impresora 3D. \textit{Administra tu impresora 3D en línea}.}                                     % Insertamos nueva seccion, SI aparece en la tabla de contenido.
+  \subsection{Taller de monitoreo y administración de una impresora 3D. " {Administra} tu impresora 3D en línea ".}                                     % Insertamos nueva seccion, SI aparece en la tabla de contenido.
 
    En esta actividad se pretende mostrar todo lo que se necesita para monitorear y administrar una impresora 3D.
       \paragraph{}
@@ -180,7 +180,7 @@
   \end{itemize}
   
   
-              \subsection{Taller de KiCad.  \textit{Tu primer PCB con KiCad} .}                                     % Insertamos nueva seccion, SI aparece en la tabla de contenido.
+              \subsection{Taller de KiCad. " Tu primer PCB con KiCad ".}                                     % Insertamos nueva seccion, SI aparece en la tabla de contenido.
 
    Este taller consiste en la presentación de KiCad para hacer placas PCB de circuitos electrónicos.
       \paragraph{}
@@ -203,7 +203,7 @@
   \end{itemize}
   
   
-                \subsection{Taller de Nightly. \textit{Cómo contribuir a Firefox sin saber programación} .}                                     % Insertamos nueva seccion, SI aparece en la tabla de contenido.
+                \subsection{Taller de Nightly. " {Cómo} contribuir a Firefox sin saber programación ".}                                     % Insertamos nueva seccion, SI aparece en la tabla de contenido.
 
    En este taller se mostrará como instalar y configurar Firefox Nightly, se explicará la importancia de contribuir con pruebas en un software en etapa beta, cómo probarlo y reportar bugs. 
       \paragraph{}
@@ -227,7 +227,7 @@
   
   \vspace{1 cm}
   
-            \subsection{Conferencia/Plática  \textit{Privacidad, anonimato y derechos digitales} .}                                     % Insertamos nueva seccion, SI aparece en la tabla de contenido.
+            \subsection{Conferencia/Plática " Privacidad, anonimato y derechos digitales ".}                                     % Insertamos nueva seccion, SI aparece en la tabla de contenido.
 
    En esta conferencia se abordará el contexto actual de los derechos digitales, los riesgos y amenazas que existen en torno a ellos, después se procedera a hablar sobre mecánismos de privacidad y anonimato en la red.
       \paragraph{}
@@ -251,7 +251,7 @@
   
 
   
-  \subsection{Conferencia/Plática  \textit{¿Hiciste cambios y ya no compila? Hablemos de Git} .}                                     % Insertamos nueva seccion, SI aparece en la tabla de contenido.
+  \subsection{Conferencia/Plática " ¿Hiciste cambios y ya no compila? Hablemos de Git ".}                                     % Insertamos nueva seccion, SI aparece en la tabla de contenido.
    En esta plática se hablará de la importancia de utilizar un control de versiones para proyectos universitarios y su contribución a la supervivencia de proyectos libres.
       \paragraph{}
   \textbf{Elementos necesarios para llevar a cabo esta actividad.}
@@ -275,7 +275,7 @@
   
 
   
-      \subsection{Conferencia/Plática  \textit{No es tu amigo, es software privativo} .}                                     % Insertamos nueva seccion, SI aparece en la tabla de contenido.
+      \subsection{Conferencia/Plática " No es tu amigo, es software privativo ".}                                     % Insertamos nueva seccion, SI aparece en la tabla de contenido.
 
    En esta plática se pretende hablar de qué es el FOSS y su impacto en el mundo. 
       \paragraph{}
@@ -543,7 +543,7 @@ C/P Software Libre & Ver lista ~\ref{list:sl} & 1,5 hrs (1) & Miembros de LIDSOL
     \end{center}
   \end{figure}
   
-  \subsection{Taller de OpenScad. \textit{OpenScad para diseño de módelos parametrizables 2D y 3D} .}
+  \subsection{Taller de OpenScad. " {OpenScad} para diseño de módelos parametrizables 2D y 3D ".}
   
   El taller de OpenScad tuvo un total de 19 inscritos vía online, sin embargo tuvo una asistencia total de 8 personas.
        \begin{figure}[H]
@@ -554,7 +554,7 @@ C/P Software Libre & Ver lista ~\ref{list:sl} & 1,5 hrs (1) & Miembros de LIDSOL
     \end{center}
   \end{figure}
   
-  \subsection{Taller de monitoreo y administración de una impresora 3D. \textit{Administra tu impresora 3D en línea} .}   
+  \subsection{Taller de monitoreo y administración de una impresora 3D. " {Administra} tu impresora 3D en línea ".}   
   
 El taller de de monitoreo y administración de una impresora 3D tuvo un total de 12 inscritos vía online y tuvo una asistencia total de 5 personas. Tal como se observa en la figura~\ref{fig:impresion-01}
        \begin{figure}[H]
@@ -565,7 +565,7 @@ El taller de de monitoreo y administración de una impresora 3D tuvo un total de
     \end{center}
   \end{figure}
   
-  \subsection{Taller de KiCad. \textit{ Tu primer PCB con KiCad} .}  
+  \subsection{Taller de KiCad. " Tu primer PCB con KiCad ".}  
     El taller de KiCad tuvo un total de 20 inscritos vía online y tuvo una asistencia total de 14 personas.
        \begin{figure}[H]
     \begin{center}
@@ -583,7 +583,7 @@ El taller de de monitoreo y administración de una impresora 3D tuvo un total de
     \end{center}
   \end{figure}   
   
-  \subsection{Taller de Nightly. \textit{Cómo contribuir a Firefox sin saber programación }.}  
+  \subsection{Taller de Nightly. " {Cómo} contribuir a Firefox sin saber programación ".}  
   
 El taller de  Nightly tuvo un total de 6 inscritos vía online y tuvo una asistencia.
 
@@ -595,19 +595,19 @@ El taller de  Nightly tuvo un total de 6 inscritos vía online y tuvo una asiste
     \end{center}
   \end{figure} 
   
-  \subsection{Conferencia/Plática \textit{Privacidad, anonimato y derechos digitales} .}     
+  \subsection{Conferencia/Plática " Privacidad, anonimato y derechos digitales ".}     
   En la conferencia, los asistentes se mostraron muy participativos y fueron alrededor de 80. Al final de la conferencia se les dio \textit{swag} de Tor.
              \begin{figure}[H]
     \begin{center}
       \includegraphics[width=0.375\textwidth]{images/tor-02}
       \includegraphics[width=0.375\textwidth]{images/tor-01}
-      \caption{Asistencia a la conferencia  \textit{ Privacidad, anonimato y derechos digitales} .}
+      \caption{Asistencia a la conferencia  " Privacidad, anonimato y derechos digitales ".}
       \label{fig:tor}
     \end{center}
   \end{figure}  
   
   
-  \subsection{Conferencia/Plática \textit{ ¿Hiciste cambios y ya no compila? Hablemos de Git} .} 
+  \subsection{Conferencia/Plática " ¿Hiciste cambios y ya no compila? Hablemos de Git ".} 
     En la conferencia, los asistentes se mostraron muy participativos y fueron alrededor de 50. Al final de la conferencia se les dio \textit{swag} de Github, mismo que no fue suficiente porque algunas personas se acercaron a pedirnos \textit{sheets}.
   
            \begin{figure}[H]
@@ -616,17 +616,17 @@ El taller de  Nightly tuvo un total de 6 inscritos vía online y tuvo una asiste
       \includegraphics[width=0.375\textwidth]{images/git-03}
       \includegraphics[width=0.375\textwidth]{images/git-01}
       \includegraphics[width=0.375\textwidth]{images/git-04}
-      \caption{Asistencia a la conferencia \textit{¿Hiciste cambios y ya no compila? Hablemos de Git}.}
+      \caption{Asistencia a la conferencia "¿Hiciste cambios y ya no compila? Hablemos de Git".}
       \label{fig:git}
     \end{center}
   \end{figure}  
   
-  \subsection{Conferencia/Plática\textit{ No es tu amigo, es software privativo }.}  
+  \subsection{Conferencia/Plática " No es tu amigo, es software privativo ".}  
        En la conferencia, los asistentes se mostraron muy participativos y fueron alrededor de 35. 
          \begin{figure}[H]
     \begin{center}
       \includegraphics[width=0.75\textwidth]{images/privativo-01}
-      \caption{Asistencia a la conferencia \textit{No es tu amigo, es software privativo} .}
+      \caption{Asistencia a la conferencia "No es tu amigo, es software privativo ".}
       \label{fig:privativo-01}
     \end{center}
   \end{figure}  
@@ -673,9 +673,6 @@ El taller de  Nightly tuvo un total de 6 inscritos vía online y tuvo una asiste
 
     
     \item Mandamos un cartel por cada actividad, no sabiamos que había un límite de carteles por agrupación, lo que hizo que sólo pudieramos imprimir 5 carteles por actividad. En un futuro sería deseable que hicieramos un cartel que contuviera todas nuestras actividades.
-    
-    \item Los carteles se imprimieron tan solo 7 días hábiles antes de la feria, (y fuero pocos) por lo que no fue tan visible, creemos que si existiera un canal de comunicación más efectivo con la SSA esto no habría pasado, porque los carteles de nuestra parte estuvieron listos mucho antes.
-    
     \item Existio conflicto del uso de la cámara, en futuros eventos sería deseable designar a una persona que se encargue de la cámara y documentar sea su única tarea durante ese evento.
     
     \item Nos dimos cuenta que al anunciar en los salones, hubo profesores que enviaron a sus alumnos por puntos extra, creemos que esos profesores formaron un pilar muy fuerte para que existiera asistencia en nuestras actividades. Es deseable que en futuros eventos podamos hablar con los profesores e imprimir una hoja con la información de las actividades para que sean ellos quienes inviten a los alumnos.
@@ -684,9 +681,6 @@ El taller de  Nightly tuvo un total de 6 inscritos vía online y tuvo una asiste
     
     \item Debido a las conferencias, sacamos la lona de LIDSOL al auditorio para obtener visibilidad y tuvimos un incidente con la misma. Es regla no dejar las lonas en los auditorios, las lonas deben siempre devolverse a su lugar después de cada conferencia.
     
-    \item Nos dimos cuenta que nos hace falta tener más material de apoyo llamativo y representativo de LIDSOL, porque sólo tenemos una lona y no ayudo mucho para visibilizar todas nuestras actividades (Conferencias en Auditorio Sotero Prieto, Stand en vestíbulo de Auditorio Javier Barros Sierra, Talleres
- en Anexo de Ineniería).
-     
     \item Las conferencias del segundo día tuvieron mayor asistencia, y de hecho muchas personas preguntaron sobre la primera conferencia, no es bueno abrir el evento, pues las personas aún no están tan al tanto de las conferencias y pueden perderselas aunque les parezcan atractivas.
     
     \item Durante la feria la SSA entrega reconocimientos a las agrupaciones, sería recomendable tener a una sola persona encargada de recibir estos reconocimientos para que no se extravíen.
@@ -744,10 +738,6 @@ El taller de  Nightly tuvo un total de 6 inscritos vía online y tuvo una asiste
   
    \begin{itemize}
     \item Esta actividad tenía designada una carpa detrás del stand, pero no se hizo ahí porque no era visible, al final se opto por realizar el installfest en el stand, por lo que para futuros eventos no debería considerarse un espacio/carpa aparte para la realización de esta actividad.
-    \item Creemos que nos falto tematizar el espacio que estaba dedicado a esta actividad porque personas qe participaron comentaron que no nos encontraban, además al estar tematizado llamaría más la atención y exitiría una mayor participación.
-    \item De nuestra parte nos falto tener las ISOs en al menos tres USBs listos para usarse, porque aunque teníamos muchas distros descargadas, los participantes tuvieron que esperar mucho para iniciar su instalación.
-    \item En un principio consideramos los horarios de los miembros de LIDSOL para definir los horarios que estaríamos en stand y considerabamos hasta 7 u 8 de la noche. En la feria nos dimos cuenta que todos los stands se retiran a las 5 pm, por lo que en futuras ediciones deberiamos considerar nuestro horario en función de esto.
-    
     
     \item Nuestro desempeño en números:
     
@@ -765,7 +755,7 @@ El taller de  Nightly tuvo un total de 6 inscritos vía online y tuvo una asiste
     \end{itemize} 
     
   \end{itemize}
-  \subsection{Taller de OpenScad. \textit{OpenScad para diseño de módelos parametrizables 2D y 3D} .}
+  \subsection{Taller de OpenScad. " {OpenScad} para diseño de módelos parametrizables 2D y 3D ".}
   
   \begin{itemize}
     \item El desarrollo del curso fué satisfactorio porque se logró impartir conocimientos acerca del modelado parametrizable a través del entorno de desarrollo con OpenSCAD además de difundir sobre el uso de alternativas de software libre para desarrollo de prototipos en ingeniería.
@@ -794,11 +784,10 @@ El taller de  Nightly tuvo un total de 6 inscritos vía online y tuvo una asiste
   \end{itemize}
   
   
-  \subsection{Taller de monitoreo y administración de una impresora 3D. \textit{Administra tu impresora 3D en línea} .}  
+  \subsection{Taller de monitoreo y administración de una impresora 3D. " {Administra} tu impresora 3D en línea ".}  
   
     \begin{itemize}
-    \item Creemos que la asistencia fue baja porque muy pocas personas tienen impresoras 3D, por lo que sería mejor hacer un estudio de las personas que tienen impresoras 3D en la facultad, para decidir si volvemos a hacer talleres de este tipo.
-    \item Aunque no hubo la asistencia esperada, el taller resultó muy útil a los asistentes, que después regresaron a LIDSOL para aprender más.
+    \item Aquí van comentarios de Emilio.
     
     \item Nuestro desempeño en números:
     
@@ -818,7 +807,7 @@ El taller de  Nightly tuvo un total de 6 inscritos vía online y tuvo una asiste
     \end{itemize} 
     
   \end{itemize}  
-  \subsection{Taller de KiCad.  \textit{Tu primer PCB con KiCad} .}  
+  \subsection{Taller de KiCad. " Tu primer PCB con KiCad ".}  
   
   
     \begin{itemize}
@@ -844,7 +833,7 @@ El taller de  Nightly tuvo un total de 6 inscritos vía online y tuvo una asiste
     \end{itemize} 
     
   \end{itemize}     
-  \subsection{Taller de Nightly. \textit{Cómo contribuir a Firefox sin saber programación }.}  
+  \subsection{Taller de Nightly. " {Cómo} contribuir a Firefox sin saber programación ".}  
   
    
     \begin{itemize}
@@ -869,7 +858,7 @@ El taller de  Nightly tuvo un total de 6 inscritos vía online y tuvo una asiste
     
   \end{itemize}  
   
-  \subsection{Conferencia/Plática \textit{Privacidad, anonimato y derechos digitales }.}     
+  \subsection{Conferencia/Plática " Privacidad, anonimato y derechos digitales ".}     
   
   \begin{itemize}
     \item Esta fue la última conferencia y fue la que tuvo mejor asistencia, creemos que entre los factores principales de esto, están que visitamos la facultad de politicas para que se distribuyera la información y pedimos a un profesor que nos llevara a su grupo, además uno de los ponentes es muy reconocido.
@@ -891,7 +880,7 @@ El taller de  Nightly tuvo un total de 6 inscritos vía online y tuvo una asiste
     
   \end{itemize}
   
-  \subsection{Conferencia/Plática \textit{¿Hiciste cambios y ya no compila? Hablemos de Git}.} 
+  \subsection{Conferencia/Plática " ¿Hiciste cambios y ya no compila? Hablemos de Git ".} 
   
     \begin{itemize}
     \item Esta fue la segunda conferencia y teniamos \textit{swag} para entregar, en algún punto nos descuidamos y los asistentes revisaron las cosas del \textit{staff} con tal de encontrar más calcamonías, aprendimos que no debe dejarse al alcance de los asistentes sin supervisión las cosas del \textit{staff} porque pueden llegar a ser invasivos.
@@ -913,7 +902,7 @@ El taller de  Nightly tuvo un total de 6 inscritos vía online y tuvo una asiste
     \end{itemize} 
     
   \end{itemize}
-  \subsection{Conferencia/Plática  \textit{No es tu amigo, es software privativo} .}  
+  \subsection{Conferencia/Plática " No es tu amigo, es software privativo ".}  
   
       \begin{itemize}
     \item Esta conferencia al ser la primera tuvo muy baja asistencia, pero existio un buen recibimiento e interés de la misma, en futuras ediciones seria conveniente no elegir nuestras conferencias al principio del evento.
