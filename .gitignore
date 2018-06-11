@@ -9,3 +9,6 @@
 *.synctex.gz
 *.tex~
 *.toc
+
+# Arxhivos que genera KDE ;@
+*.directory
