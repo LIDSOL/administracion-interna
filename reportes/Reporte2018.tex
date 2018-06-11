@@ -1,0 +1,322 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Autor:        Aguilar Enriquez, Paul Sebastian a.k.a. Penserbjorne
+% Autor:        @yesn7
+% Fecha:        05/02/2017
+% Descripcion:  Plantilla base para actividades o tareas.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[a4paper,11pt]{article}                 % Papel tamaño carta, texto de 11pt.
+
+\usepackage[top=2cm, bottom=2cm, left=2.2cm, right=2.2cm]{geometry} % Margenes
+\usepackage[T1]{fontenc}                              % Indicamos la codificacion de las fuentes.
+\usepackage[utf8x]{inputenc}                          % Definimos la codificacion.
+\usepackage{lmodern}                                  % Para poder usar acentos.
+\usepackage[spanish]{babel}                           % Usaremos idioma español.
+\usepackage{amsmath}                                  % Para formulas matematicas.
+\usepackage{graphicx}                                 % Para imagenes.
+\usepackage{float}                                    % Para posicionar objetos.
+\usepackage{booktabs}                                 % Para formatear tablas.
+\usepackage{hyperref}                                 % Para enlaces y referencias.
+\usepackage{lscape}
+ %\usepackage{timetable}
+% \usepackage[spanish.mexico]{babel}
+\usepackage{tabularx}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Los logos tienen posiciones relativas al nombre de la escuela.
+% Cada imagen esta desplazada con respecto al texto, en este caso nombre de la univseridad.
+% No se necesitan paquetes adicionales, el entorno estandar para imagenes de LaTeX puede hacerlo.
+% El truco esta en definir una imagen de tamaño cero, asi no afecta al centrar los titulos.
+\def\logoUNAM{%
+  \begin{picture}(0,0)\unitlength=1cm
+    \put (-3.5,-3) {\includegraphics[width=8em]{images/escudo-unam}}
+  \end{picture}
+}
+
+\def\logoFI{%
+  \begin{picture}(0,0)\unitlength=1cm
+    \put (0.5,-3) {\includegraphics[width=8em]{images/escudo-fi}}
+  \end{picture}
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\author{LIDSOL}  % Autor de la actividad.
+\title{Reporte 2018}                % Titulo de la actividad.
+
+\date{13/06/2018}                                           % Fecha de entrega.
+
+                                          % Fecha de entrega.
+
+\def\universidad{Universidad Nacional Autónoma de México}   % Nombre de la universidad.
+\def\facultad{Facultad de Ingeniería}                              % Nombre de la facultdad.
+\def\semestre{2018}                                     % Semestre lectivo.
+\def\materia{Laboratorio de Investigación y Desarrollo del Software Libre}               % Nombre de la materia y grupo.
+\makeatletter
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+  
+  % Titulo del documento con logos.
+  \begin{center}
+    \logoUNAM {\Large \universidad} \logoFI\par
+    {\large \facultad}\par
+
+    \materia\par
+    \semestre\par
+   % \@author\par
+    \@date\par
+    \@title
+  \end{center}
+
+  \hrulefill\par
+
+  \pagenumbering{gobble}                              % Oculta el numero de pagina.
+  \tableofcontents                                    % Crea el indice o tabla de contenido.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+  \newpage
+  \pagenumbering{arabic} 
+                                 % Muestra el numero de pagina.
+  \section{Inventario}
+  \subsection{Inventario a Octubre del 2016}
+  \subsubsection{Papelería}
+    \begin{table}[H]
+    \centering
+    % \caption{My caption}
+    % \label{my-label}
+    \begin{tabular}{|c|l|}
+    \hline
+    Cantidad & \multicolumn{1}{c|}{Descripción} \\ \hline
+    4        & Cintas masking tape 1”           \\ \hline
+    1        & Cinta masking tape 1/2”          \\ \hline
+    1        & Cinta scotch transparente 1”     \\ \hline
+    1        & Pintarrón                        \\ \hline
+    7        & Plumones para pintarrón          \\ \hline
+    2        & Borradores para pintarrón        \\ \hline
+    \end{tabular}
+    \end{table}
+  \subsubsection{Anaquel blanco}
+    \begin{table}[H]
+    \centering
+    % \caption{My caption}
+    % \label{my-label}
+    \begin{tabular}{|c|l|}
+    \hline
+    Cantidad & Descripción                                                                     \\ \hline
+    1        & Anaquel blanco                                                                  \\ \hline
+    1        & Botiquín de primeros auxilios                                                   \\ \hline
+    1        & Impresora HP Laserjet (sin cable de alimentación)                               \\ \hline
+    1        & Paquete sellado con cinta canel con cargador y varios cables                    \\ \hline
+    1        & Mouse HP                                                                        \\ \hline
+    1        & Varios papeles (Catálogo de lenguas indígenas, engargolados, carpetas, gacetas) \\ \hline
+    1        & Tarjeta de red en bolsa antiestatica                                            \\ \hline
+    1        & Balon de futbol                                                                 \\ \hline  
+    1        & Bote con producto de limpieza                                                   \\ \hline  
+    1        & Montón de varios discos                                                         \\ \hline
+    \end{tabular}
+    \end{table} 
+    \begin{figure}[H]
+      \centering                            
+      \includegraphics[width=0.6\textwidth]{images/anaquel-blanco-01} \\
+      \includegraphics[width=0.2\textwidth]{images/anaquel-blanco-02}
+      \includegraphics[width=0.2\textwidth]{images/anaquel-blanco-03}
+      \includegraphics[width=0.2\textwidth]{images/anaquel-blanco-04} 
+      \caption{Fotos del anaquel blanco}                       
+   % \label{fig:bloque-tl-cero}                                  
+    \end{figure}
+  \subsubsection{Anaquel gris}
+    \begin{table}[H]
+    \centering
+    % \caption{My caption}
+    % \label{my-label}
+    \begin{tabular}{|c|l|}
+    \hline
+    Cantidad & Descripción                                        \\ \hline
+    1        & Anaquel gris                                       \\ \hline
+    1        & Multimetro Steren MUL400                           \\ \hline
+    1        & Insecticida de 429 ml                              \\ \hline
+    1        & Brocha para pintar 1 1/2”                          \\ \hline
+    1        & Frasco con bicarbonato                             \\ \hline
+    1        & Flexometro rojo                                    \\ \hline
+    1        & Bote con tapa morada con componentes electrónicos  \\ \hline
+    2        & Latas de calizador comex de 200 ml                 \\ \hline
+    1        & Borrador para pintarron                            \\ \hline
+    1        & Colección de libros (3 manuales técnicos, 7 tesis) \\ \hline
+    1        & Bonche de hojas, carpetas, lijas, tabla de madera  \\ \hline
+    1        & Cinta canela 2”                                    \\ \hline
+    1        & Bote de pasta para soldar                          \\ \hline
+    1        & Bote de `pintura vinil acrilica de 1l              \\ \hline
+    2        & Juegos de cartas                                   \\ \hline
+    1        & Paquete de 1000 grapas                             \\ \hline
+    1        & Caja negra con componentes                         \\ \hline
+    1        & Estuche naranja con componentes                    \\ \hline
+    1        & Estuche transparente con componentes               \\ \hline
+    1        & caja naranja con componentes                       \\ \hline
+    1        & Recopilador verde                                  \\ \hline
+    1        & Caja de herramientas gris grande                   \\ \hline
+    1        & Bocina Logitech                                    \\ \hline
+    1        & Juego de bocinas Logitech                          \\ \hline
+    1        & Taza negra                                         \\ \hline
+    1        & Bonche de carteles                                 \\ \hline
+    1        & Swich Zchet                                        \\ \hline
+    1        & Caja con productos comex                           \\ \hline
+    2        & Latas de recubrimiento base comex de 800 ml        \\ \hline
+    1        & Caja vacia de Router                               \\ \hline
+    1        & Bonche de carteles, lona                           \\ \hline
+    1        & Regulador                                          \\ \hline
+    1        & Caja de herramientas gris chica                    \\ \hline
+    \end{tabular}
+    \end{table}
+  \subsubsection{Zona de trabajo}
+    \begin{table}[H]
+    \centering
+    % \caption{My caption}
+    % \label{my-label}
+    \begin{tabular}{|c|l|}
+    \hline
+    Cantidad & Descripción                                                  \\ \hline
+    1        & Cable HDMI                                                   \\ \hline
+    1        & Cable ethernet 1 m                                           \\ \hline
+    1        & Cable ethernet 12 m                                          \\ \hline
+    1        & Extension Naranja                                            \\ \hline
+    2        & Multicontactos (para las computadoras de la zona de trabajo) \\ \hline
+    1        & Ventilador Honewell con control                              \\ \hline
+    11       & Sillas negras ergonómicas                                    \\ \hline
+    5        & Mesas de trabajo                                             \\ \hline
+    1        & Bote de basura rectangular                                   \\ \hline
+    1        & Banco de madera                                              \\ \hline
+    1        & Refrigerador                                                 \\ \hline
+    1        & Microondas                                                   \\ \hline
+    1        & Cafetera                                                     \\ \hline
+    1        & multicontacto (para refrigerador, cafetera y microondas)     \\ \hline
+    1        & multicontacto (para panel azul)                              \\ \hline
+    \end{tabular}
+    \end{table}
+  \subsubsection{Equipos}
+  \begin{table}[H]
+\centering
+%\caption{My caption}
+%\label{my-label}
+\begin{tabular}{|c|l|}
+\hline
+Cantidad & Descripción                                                                                                                                                                                                         \\ \hline
+2        & Monitor Dell 20” y cables de alimentación*                                                                                                                                                                          \\ \hline
+2        & \begin{tabular}[c]{@{}l@{}}CPU’s Slim Dell Inspiron 560s \\ \\ y cable de alimentación*\end{tabular}                                                                                                                \\ \hline
+2        & Cables VGA                                                                                                                                                                                                          \\ \hline
+2        & Teclados Dell                                                                                                                                                                                                       \\ \hline
+2        & Mouse Dell                                                                                                                                                                                                          \\ \hline
+1        & \begin{tabular}[c]{@{}l@{}}Equipo Dell “Zombie” con S.O. Fedora 15,\\ usuario Roberto, Pentium, 64 bits, 4GB de memoria\end{tabular}                                                                                \\ \hline
+1        & \begin{tabular}[c]{@{}l@{}}Equipo HP Compaq “Rompope” con S.O. Debian 8, \\ AMD ATHLONX2, 64 bits, (corriendo) está conectado \\ a la red “Metztli”\end{tabular}                                                    \\ \hline
+1        & \begin{tabular}[c]{@{}l@{}}Equoi con case negro NZXT (computadora armada) \\ “LIDSOL” con S.O. Debian 8, está conectado a la red \\ “Juan Carreon”, además tiene un repetidor LINKSYS\\  modelo EA2700\end{tabular} \\ \hline
+1        & Monitor HP L1710                                                                                                                                                                                                    \\ \hline
+1        & Teclado HP                                                                                                                                                                                                          \\ \hline
+1        & Caja transparente con varios cables                                                                                                                                                                                 \\ \hline
+\end{tabular}
+\end{table}
+
+
+  \subsection{Inventario a Mayo 2018}
+  \subsubsection{Hadware}
+    \begin{table}[H]
+    \centering
+    % \caption{My caption}
+    % \label{my-label}
+    \begin{tabular}{|c|l|l|l|}
+    \hline
+    Cantidad & Descripción & Estado & Procedencia \\ \hline
+             &             &        &              \\ \hline
+             &             &        &              \\ \hline
+             &             &        &              \\ \hline
+    \end{tabular}
+    \end{table}
+  \subsubsection{Bliblioteca}
+    \begin{table}[H]
+    \centering
+    % \caption{My caption}
+    % \label{my-label}
+    \begin{tabular}{|c|l|l|l|}
+    \hline
+    Cantidad & Descripción & Tipo & Procedencia \\ \hline
+             &             & Libro   &              \\ \hline
+             &             & Revista &              \\ \hline
+             &             &        |&              \\ \hline
+    \end{tabular}
+    \end{table}
+  \section{Miembros}
+  \begin{itemize}
+    \item Juan José Carreón Granados
+    
+    Profesor fundador de LIDSOL.
+    
+    \item Gunnar Wolf 
+    
+    Es el nuevo responsable académico, dirige el \textbf{Proyecto PAPIME PE102718 - Desarrollo de materiales didácticos para los mecanismos de privacidad y anonimato en redes}. Más información de este proyecto \href{https://www.priv-anon.unam.mx/}{aquí}, \href{https://github.com/LIDSOL/papime-pe102718-mecanismos-de-privacidad-y-anonimato}{repositorio}. Tiene llaves del Laboratorio.
+    
+    \item Hernandez Andrés
+    
+    Ingeniero en computación, es colaborador académico.
+    
+    \item Barriga Martínez Diego Alberto
+    
+    Estudiante de Ingeniería en computación, becario del \textbf{Proyecto PAPIME PE102718 - Desarrollo de materiales didácticos para los mecanismos de privacidad y anonimato en redes}. Hablo sobre \textbf{Derechos digitales} en una conferencia en conjunto con Gunnar en la (\textbf{Feria de Agrupaciones de la FI}), y escribió un artículo sobre \textbf{La neutralidad de la red} para el \href{https://issuu.com/nigromantefi}{\textbf{Nigromante  (Revista DCSyH FI  UNAM)}}. Impartió un taller sobre \href{https://github.com/umoqnier/personal-page}{\textbf{Github pages}} en el laboratorio. Tiene llaves del Laboratorio.
+    
+    \item Cabrera Lopez Oscar Emilio 
+    
+    Estudiante de Ingeniería en computación, es \textbf{Sysadmin} de los servidores del laboratorio, es becario del \textbf{Proyecto PAPIME PE216116 - Ambientes virtuales y herramientas digitales para neurociencia}, dicho proyecto es coordinado por el profesor Rodrigo Montufar Chaveznava y se hace en colaboración con LIDSOL, \href{https://github.com/LIDSOL/portia}{(ver repositorio)}. Realizo el guión de los \href{https://www.youtube.com/channel/UCwHFqMqxUcCAJSdek3e4zOw}{vídeos} que se publicaron en torno al  \textbf{Proyecto PAPIME -PE104415}. Impartió un \href{https://lidsol.org/talleres/0002_css_basico.html}{taller de css} en el laboratorio y un taller de administración de una impresora 3D en la (\textbf{Feria de Agrupaciones de la FI}). Tiene llaves del Laboratorio.
+    
+    \item Flores Gaspar Juan Antonio
+    
+    Estudiante de Ingeniería en computación, becario del \textbf{Proyecto PAPIME PE102718 - Desarrollo de materiales didácticos para los mecanismos de privacidad y anonimato en redes}, interesado en seguridad informatica. 
+    
+
+    \item Navarro Yesica 
+    
+    Estudiante de Inegiería eléctrica electrónica, entusiasta del software y las tecnologías libres, coordina colaboraciones de LIDSOL con el \href{https://issuu.com/nigromantefi}{\textbf{Nigromante  (Revista DCSyH FI  UNAM)}} mensualmente, \href{https://github.com/LIDSOL/material-didactico/tree/master/nigromante}{ver repositorio}. Participó activamente en la logística del último evento (\textbf{Feria de Agrupaciones de la FI}),  impartiendo en el mismo un \href{https://github.com/yesn7/taller-kicad/}{\textbf{Taller de KiCad}}. Realizo la edición de los \href{https://www.youtube.com/channel/UCwHFqMqxUcCAJSdek3e4zOw}{vídeos} que se publicaron en torno al  \textbf{Proyecto PAPIME -PE104415}. Tiene llaves del Laboratorio.
+    
+    \item Oropeza Vilchis Luis Alberto
+    
+    Estudiante de Ingeniería en computación, es becario del \textbf{Proyecto PAPIME PE216116 - Ambientes virtuales y herramientas digitales para neurociencia}, dicho proyecto es coordinado por el profesor Rodrigo Montufar Chaveznava y se hace en colaboración con LIDSOL, \href{https://github.com/LIDSOL/portia}{(ver repositorio)}. Participó activamente en la (\textbf{Feria de Agrupaciones de la FI}), ayudando en el installfest y reclutando a nuevos miembros en los stands. Tiene llaves del Laboratorio.
+    
+    \item Perez Hernandez Nohemi
+    
+    Estudiante de Ingeniería geofísica, está interesada en desarrollo 3D. Participó en la (\textbf{Feria de Agrupaciones de la FI}), ayudando en la logística del evento. Colabora activamente en el \href{https://github.com/LIDSOL/OpenSCAD-free-models}{\textbf{Proyecto \textit{Modelos libres de OpensCAD}}} coordinado por Pablo Vivar.
+    
+    \item Rios Morales Alexis Manuel
+    
+    Estudiante de Ingeniería en computación. Participó en la (\textbf{Feria de Agrupaciones de la FI}), apoyando como voluntario a los encargados del installfest y  los stands.
+     
+    \item Ruano Muñoz Marco Antonio
+    
+    Estudiante de Ingeniería en computación, becario del \textbf{Proyecto PAPIME PE102718 - Desarrollo de materiales didácticos para los mecanismos de privacidad y anonimato en redes}. Publicó en la \textbf{Revista .Seguridad} el artículo \href{https://revista.seguridad.unam.mx/numero30/la-red-tor-como-elemento-de-privacidad-en-nuestras-vidas}{La red Tor como elemento de privacidad en nuestras vidas}. Tiene llaves del Laboratorio.
+    
+    \item Torres Rosales Luz Olimpia
+    
+    Estudiante de Ingeniería eléctrica electrónica. Participó en la (\textbf{Feria de Agrupaciones de la FI}), apoyando como voluntario a los a los talleristas. Fungió como voz en \href{https://www.youtube.com/channel/UCwHFqMqxUcCAJSdek3e4zOw}{vídeos} que se publicaron en torno al  \textbf{Proyecto PAPIME -PE104415}.
+    
+    \item Vivar Colina Pablo
+    
+    Estudiante de Ingeniería eléctrica electrónica. Está interesado en el desarrollo 3D, y tiene un proyecto propio en el laboratorio (\href{https://github.com/LIDSOL/OpenSCAD-free-models}{\textbf{Proyecto \textit{Modelos libres de OpensCAD}}}), por lo mismo intenta reclutar personas al final de los distintios \href{https://github.com/LIDSOL/OpenSCAD-curso}{talleres de OpensCAD} que ha impartido en el laboratorio. Tiene llaves del Laboratorio.
+  \end{itemize}
+  
+  \section{Necesidades}
+  
+  \begin{itemize}
+    \item 
+  \end{itemize}
+  \section{Actividades}
+  
+  
+  
+   
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\end{document}
