@@ -10,5 +10,8 @@
 *.tex~
 *.toc
 
-# Arxhivos que genera KDE ;@
+# Archivos que genera KDE ;@
 *.directory
+
+# Archivos que genera vscode
+.vscode/
