@@ -1,0 +1,98 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Autor:        Aguilar Enriquez, Paul Sebastian a.k.a. Penserbjorne
+% Autor:        @yens7
+% Autor:        Calderón Olalde, Enrique Job @ksobrenat32
+% Fecha:        05/01/2024
+% Descripción:  Plantilla base para reportes.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[a4paper,11pt]{article}                 % Papel tamaño carta, texto de 11pt.
+
+\usepackage[top=2cm, bottom=2cm, left=2.2cm, right=2.2cm]{geometry} % Margenes
+\usepackage[T1]{fontenc}                              % Indicamos la codificación de las fuentes.
+\usepackage[utf8x]{inputenc}                          % Definimos la codificación.
+\usepackage{lmodern}                                  % Para poder usar acentos.
+\usepackage[spanish]{babel}                           % Usaremos idioma español.
+\usepackage{amsmath}                                  % Para formulas matemáticas.
+\usepackage{graphicx}                                 % Para imágenes.
+\usepackage{float}                                    % Para posicionar objetos.
+\usepackage{booktabs}                                 % Para formatear tablas.
+\usepackage{hyperref}                                 % Para enlaces y referencias.
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Los logos tienen posiciones relativas al nombre de la escuela.
+% Cada imagen esta desplazada con respecto al texto, en este caso nombre de la universidad.
+% No se necesitan paquetes adicionales, el entorno estándar para imágenes de LaTeX puede hacerlo.
+% El truco esta en definir una imagen de tamaño cero, asi no afecta al centrar los títulos.
+\def\logoUNAM{%
+  \begin{picture}(0,0)\unitlength=1cm
+    \put (-3.5,-3) {\includegraphics[width=8em]{images/escudo-unam}}
+  \end{picture}
+}
+
+\def\logoFI{%
+  \begin{picture}(0,0)\unitlength=1cm
+    \put (0.5,-3) {\includegraphics[width=8em]{images/escudo-fi}}
+  \end{picture}
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\author{Encargado del laboratorio}                          % Encargado del proyecto.
+\title{Nombre del reporte}                                  % Titulo del proyecto.
+
+\def\universidad{Universidad Nacional Autónoma de México}   % Nombre de la universidad.
+\def\facultad{Facultad de Ingeniería}                       % Nombre de la facultad.
+\def\semestre{2024-2}                                       % Semestre lectivo.
+\def\laboratorio{Laboratorio de Investigación y Desarrollo del Software Libre}               % Nombre del laboratorio.
+\makeatletter
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+  % Titulo del documento con logos.
+  \begin{center}
+    \logoUNAM {\Large \universidad} \logoFI\par
+    {\large \facultad}\par
+
+    \laboratorio\par
+    \semestre\par
+    \@author\par
+    \@date\par
+    \@title
+  \end{center}
+
+  \hrulefill\par
+
+  \pagenumbering{gobble}                              % Oculta el numero de pagina.
+  \tableofcontents                                    % Crea el indice o tabla de contenido.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+  \newpage
+  \pagenumbering{arabic} % Muestra el numero de pagina.
+
+  \section{Inventario}
+  \subsection{Hardware}
+    Enumerar todo el hardware disponible en el laboratorio, incluyendo computadoras, dispositivos de red, impresoras, etc. Incluir numero de inventario, estado y procedencia.
+  \subsection{Libros y documentación}
+    Listar los libros, revistas y otros recursos de documentación disponibles en el laboratorio.
+  \subsection{Otros}
+    Incluir cualquier otro tipo de recurso o equipo que pueda ser relevante para el trabajo del laboratorio.
+
+  \section{Miembros}
+    Enumerar todos los miembros del laboratorio, incluyendo investigadores, estudiantes, personal técnico, etc. Incluir información de contacto, participaciones y si cuenta con llaves del laboratorio.
+
+  \section{Necesidades}
+    Detallar cualquier necesidad o requerimiento que el laboratorio tenga, ya sea en términos de recursos, infraestructura, personal, etc. Incluir razón de la necesidad y urgencia.
+
+  \section{Actividades}
+  \subsection{Eventos}
+    Resumir todos los eventos llevados a cabo por el laboratorio durante el semestre, incluyendo conferencias, talleres, feria, etc.
+  \subsection{Proyectos}
+    Describir brevemente los proyectos en los que el laboratorio ha estado trabajando durante el semestre, incluyendo su estado actual y cualquier resultado importante alcanzado.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\end{document}
