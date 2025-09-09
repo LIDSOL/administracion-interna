@@ -9,6 +9,44 @@
 ### Cluster de despliegue y pruebas
 ### Plataforma de backups automatizados
 ### Infraestructura para ciencia de datos y Machine Learning
+### Apache Beam
+
+## 2025-09-08
+
+### Espejos de distribuciones Linux
+
+- Mau: Empieza con el deploy de mirror de Fedora.
+- Sandra: Empieza con el deploy de mirror de Rocky Linux.
+- Luis: Investigar sobre mirror de Linux Mint.
+
+### Nodo Tor público
+
+- Sin cambios
+
+### Servicios internos del laboratorio
+
+- Quique: Checa docs de drawDB
+
+### Monitoreo centralizado
+
+- Quique: Investiga sobre opciones de monitoreo (Prometheus, Grafana, Loki, etc).
+
+### Cluster de despliegue y pruebas
+
+- Diego: Investiga e instala devops tools (argoCD, flux, etc).
+- Quique: Reacondiciona nodo de storage.
+
+### Plataforma de backups automatizados
+
+- Sin cambios
+
+### Infraestructura para ciencia de datos y Machine Learning
+
+- Sin cambios
+
+### Apache Beam
+
+- Todos: Leer reporte de Quique y pensar en que se puede mejorar
 
 ## 2025-09-01
 
