@@ -11,6 +11,44 @@
 ### Infraestructura para ciencia de datos y Machine Learning
 ### Apache Beam
 
+## 2025-09-22
+
+### Espejos de distribuciones Linux
+
+- Mau: Empieza con el deploy de mirror de Fedora.
+- Sandra: Investiga sobre mirror de Rocky Linux.
+- Luis: Investiga sobre mirror de Linux Mint.
+
+### Nodo Tor público
+
+- Sin cambios
+
+### Servicios internos del laboratorio
+
+- Agregar una wiki
+- Hostear github actions en cluster
+
+### Monitoreo centralizado
+
+- Quique: Agrega el plan a github projects.
+
+### Cluster de despliegue y pruebas
+
+- Diego: Investiga reverse proxy para cluster.
+- Quique: Reacondiciona nodo de storage.
+
+### Plataforma de backups automatizados
+
+- Sin cambios
+
+### Infraestructura para ciencia de datos y Machine Learning
+
+- Sin cambios
+
+### Apache Beam
+
+- Sin cambios
+
 ## 2025-09-08
 
 ### Espejos de distribuciones Linux
