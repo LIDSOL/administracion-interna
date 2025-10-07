@@ -11,6 +11,46 @@
 ### Infraestructura para ciencia de datos y Machine Learning
 ### Apache Beam
 
+## 2025-10-06
+
+### Espejos de distribuciones Linux
+
+- Mau: Se realizó el sync inicial del mirror de Fedora, se continúa con el sync incremental y se va a contactar a fedora.org.
+- Sandra: Investiga sobre mirror de Rocky Linux.
+- Luis: Se realizó el deploy de mirror de Linux Mint, se espera la comunicación con la distro para ser listado en su página oficial.
+- Quique: Va a checar que está ocupando el espacio en /.
+
+### Nodo Tor público
+
+- Sin cambios
+
+### Servicios internos del laboratorio
+
+- Agregar una wiki
+- Hostear github actions en cluster
+
+### Monitoreo centralizado
+
+- Luis S.: Investiga sobre los dashboards en grafana.
+- Quique: Empezar con instalación de Prometheus y Grafana.
+- Javier: Investiga sobre Elastic Search para logs.
+
+### Cluster de despliegue y pruebas
+
+- Diego: Ya tiene deployment de ingress, creará un README para documentar.
+
+### Plataforma de backups automatizados
+
+- Sin cambios
+
+### Infraestructura para ciencia de datos y Machine Learning
+
+- Sin cambios
+
+### Apache Beam
+
+- Quique: Agregó proyectos en el github.
+
 ## 2025-09-29
 
 ### Espejos de distribuciones Linux
