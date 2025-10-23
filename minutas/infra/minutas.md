@@ -11,6 +11,47 @@
 ### Infraestructura para ciencia de datos y Machine Learning
 ### Apache Beam
 
+## 2025-10-22
+
+### Espejos de distribuciones Linux
+
+- Mau: Ya terminó el fedora sync y se va a contactar a fedora.org mediante correo
+- Sandra: Empieza con el sync de mirror de Rocky Linux
+- Luis: Esperando a que nos responda sobre el mirror, en caso de no responder se buscará otro medio de contacto (la siguiente semana)
+
+### Nodo Tor público
+
+- Sin cambios
+
+### Servicios internos del laboratorio
+
+- Agregar una wiki (wiki.js)
+- Hostear github actions en cluster
+- Luis S. y David E.C. : Leen y empiezan a migrar de lidsol/servidor a lidsol/infra
+
+### Monitoreo centralizado
+
+- Luis S.: Ya vió como integrar en grafana el dashboard integrando a prometheus
+- Quique: Empezar con instalación de Prometheus y Grafana
+- Javier: Investiga sobre Elastic Search para logs
+
+### Cluster de despliegue y pruebas
+
+- Diego: Checa el deployment de Nextcloud para implementar el ingress
+- Quique: Checa almacenamiento distribuido (longhorn)
+
+### Plataforma de backups automatizados
+
+- Diego: Va a investigar sobre restic, restic-server, btrfs (dedeuplicado y compresion)
+
+### Infraestructura para ciencia de datos y Machine Learning
+
+- Sin cambios
+
+### Apache Beam
+
+- Quique: Sigue chambeando.
+
 ## 2025-10-13
 
 ### Espejos de distribuciones Linux
