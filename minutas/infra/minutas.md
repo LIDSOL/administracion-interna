@@ -1,15 +1,26 @@
 # Minutas
 
-## Proyectos
+## 2026-01-05
 
-### Espejos de distribuciones Linux
-### Nodo Tor público
-### Servicios internos del laboratorio
-### Monitoreo centralizado
-### Cluster de despliegue y pruebas
-### Plataforma de backups automatizados
-### Infraestructura para ciencia de datos y Machine Learning
-### Apache Beam
+Repaso del plan de trabajo semestral de infraestructura para el primer semestre de 2026.
+
+- Una junta al mes obligatoria la primera semana del mes. Segunda junta opcional para seguimiento la tercera semana del mes.
+- Horario de las juntas por definir (después de inscripciones).
+- Asignación de trabajos por proyecto.
+
+### Tareas:
+
+#### Cluster de kubernetes
+
+- Quique y Diego C.: Recuperar nodo beta y restaurar alta disponibilidad.
+
+#### Red y conectividad
+
+- Quique y Luis S.: Solucionar intermitencia en mirrors públicos.
+
+#### Mirors de distribuciones Linux
+
+- Mau, Christian F. y Brent: Consolidar mirrors de Fedora y Rocky Linux.
 
 ## 2025-12-15
 
