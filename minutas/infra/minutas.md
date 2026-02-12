@@ -1,5 +1,27 @@
 # Minutas
 
+## 2026-02-11
+
+Repaso del plan, meses febrero-marzo.
+
+### Tareas:
+
+#### Stack de Métricas
+
+- Quique y Diego C.: Unifican métricas de mirror para mostrarse públicamente.
+
+#### Stack de logs
+
+- Quique: Busca unificar logs dentro de cluster para avisos de errores, problemas, etc.
+
+#### Nodo de almacenamiento
+
+- Diego C. y Uriel: Planean el estado y flujo de nodo de almacenamiento/respaldos.
+
+#### Mirors de distribuciones Linux
+
+- Mau, Christian F. y Brent: Consolidar mirrors de Fedora y Rocky Linux.
+
 ## 2026-01-05
 
 Repaso del plan de trabajo semestral de infraestructura para el primer semestre de 2026.
@@ -12,15 +34,11 @@ Repaso del plan de trabajo semestral de infraestructura para el primer semestre 
 
 #### Cluster de kubernetes
 
-- Quique y Diego C.: Recuperar nodo beta y restaurar alta disponibilidad.
+- Quique y Diego C.: Recuperar nodo beta y restaurar alta disponibilidad. **HECHO**
 
 #### Red y conectividad
 
-- Quique y Luis S.: Solucionar intermitencia en mirrors públicos.
-
-#### Mirors de distribuciones Linux
-
-- Mau, Christian F. y Brent: Consolidar mirrors de Fedora y Rocky Linux.
+- Quique y Luis S.: Solucionar intermitencia en mirrors públicos. **HECHO**
 
 ## 2025-12-15
 
