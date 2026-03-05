@@ -1,10 +1,6 @@
 # Minutas
 
-## 2026-02-11
-
-Repaso del plan, meses febrero-marzo.
-
-### Tareas:
+## 2026-03-04
 
 #### Stack de Métricas
 
@@ -16,11 +12,27 @@ Repaso del plan, meses febrero-marzo.
 
 #### Nodo de almacenamiento
 
-- Diego C. y Uriel: Planean el estado y flujo de nodo de almacenamiento/respaldos.
+- Diego C. y Uriel: Definen y configuran las herramientas/scripts a utilizar para respaldos automatizados.
 
 #### Mirors de distribuciones Linux
 
-- Mau, Christian F. y Brent: Consolidar mirrors de Fedora y Rocky Linux.
+- Mau: Implementar el timer para el sync incremental de Fedora y lo configurará con ansible.
+- Christian F. y Brent: Consolidar mirrors de Rocky Linux.
+
+#### Migración repo
+
+- Quique: Checa PR de migración de Luis S. de lidsol/servidor a lidsol/infra.
+
+## 2026-02-11
+
+Repaso del plan, meses febrero-marzo.
+
+### Tareas:
+
+#### Nodo de almacenamiento
+
+- Diego C. y Uriel: Planean el estado y flujo de nodo de almacenamiento/respaldos. **HECHO**
+    - Se instaló debian con raid 1 (mdraid/lvm) y se configuró cockpit.
 
 ## 2026-01-05
 
